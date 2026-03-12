@@ -84,13 +84,23 @@ pagination_dir: page
 #theme: landscape
 theme: next
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+word_counter:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  - type: git
-    repo: git@github.com:iqijun/blog.git
-    branch: gh-pages
-  - type: git
-    repository: git@github.com:iqijun/iqijun.github.io.git
-    branch: master
-    message: 文章发布
+  type: git
+  repo:
+    github_source: git@github.com:iqijun/blog.git,gh-pages
+    github_pages: git@github.com:iqijun/iqijun.github.io.git,master
+  branch: master # 部署到gh-pages分支时指定
