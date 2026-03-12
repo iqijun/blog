@@ -82,12 +82,15 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 
 #theme: landscape
-theme: next
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-   type: git
-   repository: git@github.com:iqijun/iqijun.github.io.git
-   branch: master
-   message: 文章发布
+  - type: git
+    repo: git@github.com:iqijun/blog.git
+    branch: gh-pages
+  - type: git
+    repository: git@github.com:iqijun/iqijun.github.io.git
+    branch: master
+    message: 文章发布
