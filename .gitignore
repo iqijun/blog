@@ -10,3 +10,4 @@ public/
 *.iml
 .vscode/
 package-lock.json
+themes/next/.git

@@ -1,0 +1,413 @@
+# ===============================================================
+# NexT Theme Configuration
+# ===============================================================
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+# Schemes: Muse | Mist | Pisces | Gemini
+scheme: Pisces
+
+# Dark Mode
+darkmode: true
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  #about: /about/ || fa fa-user
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+
+# Enable / Disable menu icons / item badges.
+menu_settings:
+  icons: true
+  badges: false
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+sidebar:
+  # Sidebar Position.
+  position: left
+  #position: right
+
+  # Manual define the sidebar width. If commented, will be default for:
+  # Muse | Mist: 320
+  # Pisces | Gemini: 240
+  #width: 300
+
+  # Sidebar Display (only for Muse | Mist), available values:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically.
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  totally remove sidebar including sidebar toggle.
+  display: post
+
+  # Sidebar padding in pixels.
+  padding: 18
+  # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
+  offset: 12
+
+# ---------------------------------------------------------------
+# Footer Settings
+# ---------------------------------------------------------------
+footer:
+  # Specify the year when the site was setup. If not defined, current year will be used.
+  #since: 2016
+
+  # Icon between year and copyright info.
+  icon:
+    # Icon name in Font Awesome. See: https://fontawesome.com/icons
+    name: fa fa-heart
+    # If you want to animate the icon, set it to true.
+    animated: true
+    # Change the color of icon, using Hex Code.
+    color: "#ff0000"
+
+  # If not defined, `author` from Hexo `_config.yml` will be used.
+  copyright:
+
+  # Powered by Hexo & NexT
+  powered: true
+
+# ---------------------------------------------------------------
+# Post Settings
+# ---------------------------------------------------------------
+# Automatically excerpt description in homepage as preamble text.
+excerpt_description: true
+
+# Read more button
+# If true, the read more button will be displayed in excerpt section.
+read_more_btn: true
+
+# Post meta display settings
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+
+# Post wordcount display settings
+# Dependencies: https://github.com/next-theme/hexo-word-counter
+symbols_count_time:
+  separated_meta: true
+  item_text_total: false
+
+# Use icon instead of the symbol # to indicate the tag at the bottom of the post
+tag_icon: false
+
+# ---------------------------------------------------------------
+# Custom Page Settings
+# ---------------------------------------------------------------
+# TagCloud settings for tags page.
+tagcloud:
+  min: 12 # Minimum font size in px
+  max: 30 # Maximum font size in px
+  amount: 200 # Total amount of tags
+  orderby: name # Order of tags
+  order: 1 # Sort order
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+# Preconnect CDN for fonts and plugins.
+# For more information: https://www.w3.org/TR/resource-hints/#preconnect
+preconnect: false
+
+# Set the text alignment in posts / pages.
+text_align:
+  # Available values: start | end | left | right | center | justify | justify-all | match-parent
+  desktop: justify
+  mobile: justify
+
+# Reduce padding / margin indents on devices with narrow width.
+mobile_layout_economy: false
+
+# Browser header panel color.
+theme_color:
+  light: "#222"
+  dark: "#222"
+
+# Override browsers' default behavior.
+body_scrollbar:
+  # Place the scrollbar over the content.
+  overlay: false
+  # Present the scrollbar even if the content is not overflowing.
+  stable: false
+
+codeblock:
+  # Code Highlight theme
+  # All available themes: https://theme-next.js.org/highlight/
+  theme:
+    light: default
+    dark: stackoverflow-dark
+  prism:
+    light: prism
+    dark: prism-dark
+  # Add copy button on codeblock
+  copy_button:
+    enable: true
+    # Available values: default | flat | mac
+    style: mac
+
+back2top:
+  enable: true
+  # Back to top in sidebar.
+  sidebar: false
+  # Scroll percent label in b2t button.
+  scrollpercent: false
+
+# Reading progress bar
+reading_progress:
+  enable: true
+  # Available values: left | right
+  start_at: left
+  # Available values: top | bottom
+  position: top
+  reversed: false
+  color: "#37c6c0"
+  height: 3px
+
+# Bookmark Support
+bookmark:
+  enable: false
+  # Customize the color of the bookmark.
+  color: "#222"
+  # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
+  # If manual, only save it by clicking the bookmark-icon.
+  save: auto
+
+# ---------------------------------------------------------------
+# Font Settings
+# ---------------------------------------------------------------
+font:
+  enable: false
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+# Disable Baidu transformation on mobile devices.
+disable_baidu_transformation: false
+
+# Set a canonical link tag in your hexo, you could use it for your SEO of blog.
+# See: https://support.google.com/webmasters/answer/139066
+# Remember to set up your URL in Hexo `_config.yml` (e.g. url: http://yourdomain.com)
+canonical: true
+
+# ---------------------------------------------------------------
+# Third Party Plugins & Services Settings
+# ---------------------------------------------------------------
+
+# Math Formulas Render Support
+math:
+  # Default (false) will load mathjax / katex script on demand.
+  # That is it only render those page which has `mathjax: true` in front-matter.
+  # If you set it to true, it will load mathjax / katex script EVERY PAGE.
+  every_page: false
+
+  mathjax:
+    enable: false
+    # Available values: none | ams | all
+    tags: none
+
+  katex:
+    enable: false
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    copy_tex: false
+
+# Easily enable fast Ajax navigation on your website.
+# For more information: https://github.com/next-theme/pjax
+pjax: false
+
+# FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
+# For more information: https://fancyapps.com/fancybox/
+fancybox: true
+
+# A JavaScript library for zooming images like Medium.
+# Warning: Do not enable both `fancybox` and `mediumzoom`.
+# For more information: https://medium-zoom.francoischalifour.com
+mediumzoom: false
+
+# Vanilla JavaScript plugin for lazyloading images.
+# For more information: https://apoorv.pro/lozad.js/demo/
+lazyload: false
+
+# Pangu Support
+# For more information: https://github.com/vinta/pangu.js
+# Server-side plugin: https://github.com/next-theme/hexo-pangu
+pangu: false
+
+# Quicklink Support
+# For more information: https://getquick.link
+# Front-matter variable (nonsupport home archive).
+quicklink:
+  enable: false
+
+  # Home page and archive page can be controlled through home and archive options below.
+  # This configuration item is independent of `enable`.
+  home: false
+  archive: false
+
+  # Default (true) will initialize quicklink after the load event fires.
+  delay: true
+  # Custom a time in milliseconds by which the browser must execute prefetching.
+  timeout: 3000
+  # Default (true) will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
+  priority: true
+
+# ---------------------------------------------------------------
+# Comments Settings
+# ---------------------------------------------------------------
+# Multiple Comment System Support
+comments:
+  # Available values: tabs | buttons
+  style: tabs
+  # Choose a comment system to be displayed by default.
+  # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
+  active:
+  # Setting `true` means remembering the comment system selected by the visitor.
+  storage: true
+  # Lazyload all comment systems.
+  lazyload: false
+  # Modify texts or order for any naves, here are some examples.
+  nav:
+    #disqus:
+    #  text: Load Disqus
+    #  order: -1
+    #gitalk:
+    #  order: -2
+
+# Disqus
+# For more information: https://disqus.com
+disqus:
+  enable: false
+  shortname:
+  count: true
+
+# DisqusJS
+# For more information: https://disqusjs.skk.moe
+disqusjs:
+  enable: false
+
+# Gitalk
+# For more information: https://gitalk.github.io
+gitalk:
+  enable: false
+  github_id: # GitHub repo owner
+  repo: # Repository name to store issues
+  client_id: # GitHub Application Client ID
+  client_secret: # GitHub Application Client Secret
+  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  distraction_free_mode: true # Facebook-like distraction free mode
+  # When the official proxy is not available, you can change it to your own proxy address
+  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy address
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+  language:
+
+# ---------------------------------------------------------------
+# Search Services
+# ---------------------------------------------------------------
+# Local Search
+# Dependencies: https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
+
+# ---------------------------------------------------------------
+# Statistics and Analytics
+# ---------------------------------------------------------------
+# Google Analytics
+# See: https://analytics.google.com
+google_analytics:
+  tracking_id: # <app_id>
+  # By default, NexT will load an external gtag.js script on your site.
+  # If you only need the pageview feature, set the following option to true to get a better performance.
+  only_pageview: false
+
+# Baidu Analytics
+# See: https://tongji.baidu.com
+baidu_analytics: # <app_id>
+
+# ---------------------------------------------------------------
+# Content Sharing Services
+# ---------------------------------------------------------------
+# AddToAny
+# For more information: https://www.addtoany.com
+add_to_any:
+  enable: false
+  buttons:
+    - facebook
+    - twitter
+
+# ---------------------------------------------------------------
+# Animation Settings
+# ---------------------------------------------------------------
+# Use Animate.css to animate everything.
+# For more information: https://animate.style
+motion:
+  enable: true
+  async: false
+  transition:
+    # All available transition variants: https://theme-next.js.org/animate/
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
+    # Only for Pisces | Gemini.
+    sidebar: fadeInUp
+
+# Progress bar in the top during page loading.
+# For more information: https://github.com/CodeByZach/pace
+pace:
+  enable: false
+  # All available colors:
+  # black | blue | green | orange | pink | purple | red | silver | white | yellow
+  color: blue
+  # All available themes:
+  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
+  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
+  theme: minimal
+
+# Canvas ribbon
+# For more information: https://github.com/hustcc/ribbon.js
+canvas_ribbon:
+  enable: true
+  size: 300 # The width of the ribbon
+  alpha: 0.6 # The transparency of the ribbon
+  zIndex: -1 # The display level of the ribbon
+
+# ---------------------------------------------------------------
+# CDN Settings
+# ---------------------------------------------------------------
+vendors:
+  # The CDN provider of NexT internal scripts.
+  # Available values: local | jsdelivr | unpkg | cdnjs | custom
+  # Warning: If you are using the latest master branch of NexT, please set `internal: local`
+  internal: local
+  # The default CDN provider of third-party plugins.
+  # Available values: local | jsdelivr | unpkg | cdnjs | custom
+  # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
+  plugins: jsdelivr
+  # Custom CDN URL
+  # For example:
+  # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
+  # custom_cdn_url: https://unpkg.com/${npm_name}@${version}/${minified}
+  custom_cdn_url:
