@@ -1,555 +1,2671 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.31/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.full-stacker.com","root":"/","images":"/images","scheme":"Pisces","darkmode":{"enable":true},"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false,"highlight_theme":"atom-one-dark"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta property="og:type" content="website">
+<meta property="og:title" content="骐骏的博客">
+<meta property="og:url" content="https://blog.full-stacker.com/index.html">
+<meta property="og:site_name" content="骐骏的博客">
+<meta property="og:locale">
+<meta property="article:author" content="骐骏">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://blog.full-stacker.com/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-Hans","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>骐骏的博客</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script size="150" alpha="0.6" zIndex="-1" src="https://cdnjs.cloudflare.com/ajax/libs/ribbon.js/1.0.2/ribbon.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.31/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+  <script src="/js/third-party/fancybox.js" defer></script>
 
 
 
   
 
 
-<html class="theme-next pisces use-motion">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
-
-
-
-
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-
-
-
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="full-stacker,程序员,编码,java" />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
-
-
-
-
-
-
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="骐骏的博客">
-<meta property="og:url" content="http://www.full-stacker.com/index.html">
-<meta property="og:site_name" content="骐骏的博客">
-<meta property="og:description">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="骐骏的博客">
-<meta name="twitter:description">
-
-
-
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Pisces',
-    sidebar: {"position":"right","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: 0,
-      author: '博主'
-    }
-  };
-</script>
-
-  <title> 骐骏的博客 </title>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">骐骏的博客</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
   </div>
-  <p class="site-subtitle">学习 记录 分享</p>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">骐骏的博客</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">学习 记录 分享</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
 </div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
+
 
 <nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-question-circle fa-fw"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-question-circle fa-fw"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
 </nav>
 
- </div>
-    </header>
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="Searching..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="骐骏"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">骐骏</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">122</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">92</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
     
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2026/03/12/%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%EF%BC%9AHexo%20%E5%8D%9A%E5%AE%A2%E5%8D%87%E7%BA%A7%E4%B8%8E%20Next%20%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/03/12/%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%EF%BC%9AHexo%20%E5%8D%9A%E5%AE%A2%E5%8D%87%E7%BA%A7%E4%B8%8E%20Next%20%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97-1/" class="post-title-link" itemprop="url">从零到一：Hexo 博客升级与 Next 主题配置完整指南</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
       
 
-  
-  
+      <time title="Created: 2026-03-12 10:00:00 / Modified: 05:08:22" itemprop="dateCreated datePublished" datetime="2026-03-12T10:00:00+00:00">2026-03-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+        </span>
+    </span>
 
   
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04/02/第一篇/" itemprop="url">
-                  第一篇
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-02T22:42:18+08:00" content="2016-04-02">
-              2016-04-02
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/杂谈/" itemprop="url" rel="index">
-                    <span itemprop="name">杂谈</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/02/第一篇/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/02/第一篇/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>3k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>11 mins.</span>
+    </span>
+</div>
 
         </div>
       </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在数字化的浪潮中，拥有一个个人博客是展示思想、分享知识的绝佳平台。Hexo 作为一款快速、简洁且强大的静态博客框架，凭借其Markdown 驱动、丰富主题和插件生态，成为了众多博主的优选。然而，随着时间的推移，博客框架和依赖库也在不断迭代，适时进行升级不仅能带来性能上的提升，更能修复潜在的安全漏洞，并获得更多新特性。</p>
+<p>本文将详细记录我将 Hexo 博客从 <strong>3.9.0 版本升级到 8.1.1</strong> 的完整过程，并手把手教你如何配置广受欢迎的 <strong>Next 主题</strong>，以及集成一系列提升用户体验的实用插件。通过本文，你将学会如何：</p>
+<ul>
+<li>安全、顺利地升级 Hexo 核心及所有依赖。</li>
+<li>配置 Next 主题，包括 Scheme 选择、暗黑模式、菜单与侧边栏等。</li>
+<li>集成本地搜索、字数统计、阅读进度条、动画效果等增强功能。</li>
+<li>将博客部署到 GitHub Pages，实现双仓库部署策略。</li>
+</ul>
+<p>无论你是 Hexo 新手，还是希望将旧博客焕发新生的老用户，本文都将为你提供一份清晰、详尽的指南。</p>
+<h2 id="Hexo-升级（3-9-0-→-8-1-1）"><a href="#Hexo-升级（3-9-0-→-8-1-1）" class="headerlink" title="Hexo 升级（3.9.0 → 8.1.1）"></a>Hexo 升级（3.9.0 → 8.1.1）</h2><p>这次升级跨越了整整 <strong>5个大版本</strong>，从 Hexo 3.9.0 直接跳到 8.1.1。面对如此大的版本跨度，务必小心谨慎。</p>
+<h3 id="升级前的准备（备份）"><a href="#升级前的准备（备份）" class="headerlink" title="升级前的准备（备份）"></a>升级前的准备（备份）</h3><p><strong>这是最最重要的一步！</strong> 在进行任何系统性更改之前，务必备份你的整个博客目录。你可以简单地复制整个文件夹，或者使用版本控制工具（如 Git）提交当前所有更改。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 复制备份</span></span><br><span class="line"><span class="built_in">cp</span> -r ~/codeworkspace/blog ~/codeworkspace/blog_backup_20260312</span><br><span class="line"></span><br><span class="line"><span class="comment"># 或者使用 Git</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;Backup before Hexo upgrade&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="升级步骤"><a href="#升级步骤" class="headerlink" title="升级步骤"></a>升级步骤</h3><h4 id="1-更新-Hexo-核心"><a href="#1-更新-Hexo-核心" class="headerlink" title="1. 更新 Hexo 核心"></a>1. 更新 Hexo 核心</h4><p>首先，确保你的 Node.js 环境符合最新 Hexo 的要求（本次升级要求 Node.js 18+）。如果你的 Node.js 版本过低，请先升级。</p>
+<p>然后，全局更新 Hexo CLI 工具：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>接着，进入你的博客根目录，更新 Hexo 核心包：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/codeworkspace/blog</span><br><span class="line">npm update hexo --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-更新所有依赖"><a href="#2-更新所有依赖" class="headerlink" title="2. 更新所有依赖"></a>2. 更新所有依赖</h4><p>Hexo 博客除了核心框架，还依赖于 <code>package.json</code> 中定义的一系列插件和工具。为了避免兼容性问题，建议一并更新所有依赖。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm update --save</span><br></pre></td></tr></table></figure>
+
+<p>这一步可能会耗费一些时间，等待其完成。</p>
+<h4 id="3-修复安全漏洞"><a href="#3-修复安全漏洞" class="headerlink" title="3. 修复安全漏洞"></a>3. 修复安全漏洞</h4><p>在升级之前，我的博客存在 19 个安全漏洞。<code>npm update</code> 命令在更新依赖的同时，也会尝试修复这些漏洞。升级完成后，可以运行 <code>npm audit</code> 检查：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm audit</span><br></pre></td></tr></table></figure>
+
+<p>在我的升级完成后，漏洞数量已成功降至 <strong>0</strong>。构建速度也得到了显著提升，约 <strong>40%</strong>。</p>
+<h3 id="遇到的问题和解决方案"><a href="#遇到的问题和解决方案" class="headerlink" title="遇到的问题和解决方案"></a>遇到的问题和解决方案</h3><h4 id="YAML-配置格式错误"><a href="#YAML-配置格式错误" class="headerlink" title="YAML 配置格式错误"></a>YAML 配置格式错误</h4><p>在更新依赖或升级 Hexo 后，有时 <code>_config.yml</code> 文件中的 YAML 格式可能会变得更加严格。例如，某些旧版本允许在冒号后不加空格，但新版本可能要求严格遵守 YAML 规范。</p>
+<p><strong>问题示例：</strong></p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">title:My</span> <span class="string">Blog</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>解决方案：</strong></p>
+<p>确保所有的键值对之间都有一个空格。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">My</span> <span class="string">Blog</span></span><br></pre></td></tr></table></figure>
+
+<p>当你遇到 <code>YAMLException</code> 类似的错误时，首先检查你的 <code>_config.yml</code> 和主题配置文件。</p>
+<h4 id="主题兼容性问题"><a href="#主题兼容性问题" class="headerlink" title="主题兼容性问题"></a>主题兼容性问题</h4><p>由于本次 Hexo 版本跨度较大，原有的 <code>landscape</code> 主题在升级后可能会出现样式错乱、部分功能失效等问题。这也是我们选择切换到兼容性更好、功能更强大的 <strong>Next 主题</strong> 的主要原因之一。</p>
+<p><strong>解决方案：</strong></p>
+<p>更换为新版本 Hexo 兼容性更好的主题，或者仔细阅读旧主题的更新日志，看是否有针对新 Hexo 版本的兼容性补丁。对于本次升级，我们直接采用了 Next 主题。</p>
+<h2 id="Next-主题安装与配置"><a href="#Next-主题安装与配置" class="headerlink" title="Next 主题安装与配置"></a>Next 主题安装与配置</h2><p>Next 主题以其简洁优雅、功能丰富和高度可定制化而闻名，是 Hexo 社区中最受欢迎的主题之一。</p>
+<h3 id="为什么选择-Next-主题"><a href="#为什么选择-Next-主题" class="headerlink" title="为什么选择 Next 主题"></a>为什么选择 Next 主题</h3><ul>
+<li><strong>优雅设计：</strong> 提供了多种精美 Scheme，满足不同审美需求。</li>
+<li><strong>功能丰富：</strong> 内置了代码高亮、数学公式、评论系统集成、搜索功能等。</li>
+<li><strong>高度可定制：</strong> 通过简单的配置即可实现大量功能调整。</li>
+<li><strong>活跃社区：</strong> 持续更新，遇到问题容易找到解决方案。</li>
+</ul>
+<h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ol>
+<li><p><strong>克隆主题仓库</strong></p>
+<p>进入你的博客 <code>themes</code> 目录，克隆 Next 主题的最新版本。本次安装的版本为 <strong>8.27.0</strong>。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next next</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>配置主题</strong></p>
+<p>回到博客根目录，修改全局配置文件 <code>_config.yml</code>，将 <code>theme</code> 设置为 <code>next</code>。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.yml</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+
+<p>为了避免与 Next 主题自身的更新冲突，<strong>强烈建议</strong>使用 <code>_config.next.yml</code> 来配置 Next 主题。在博客根目录下创建 <code>_config.next.yml</code> 文件，然后将 Next 主题目录下的 <code>_config.yml</code> 内容复制到 <code>_config.next.yml</code> 中，后续所有 Next 主题的配置都在 <code>_config.next.yml</code> 中进行。</p>
+</li>
+</ol>
+<h3 id="主题配置详解"><a href="#主题配置详解" class="headerlink" title="主题配置详解"></a>主题配置详解</h3><p>以下是根据要求进行的 Next 主题基本配置：</p>
+<h4 id="1-Scheme-选择（Pisces）"><a href="#1-Scheme-选择（Pisces）" class="headerlink" title="1. Scheme 选择（Pisces）"></a>1. Scheme 选择（Pisces）</h4><p>Next 主题提供了多种 Scheme（Muse、Mist、Pisces、Gemini）。这里我们选择 <code>Pisces</code>。在 <code>_config.next.yml</code> 中找到 <code>scheme</code> 配置项：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Pisces</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="2-暗黑模式"><a href="#2-暗黑模式" class="headerlink" title="2. 暗黑模式"></a>2. 暗黑模式</h4><p>在 <code>_config.next.yml</code> 中找到 <code>darkmode</code> 配置项，启用暗黑模式：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">darkmode:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-菜单配置"><a href="#3-菜单配置" class="headerlink" title="3. 菜单配置"></a>3. 菜单配置</h4><p>根据你的需求配置博客的导航菜单。例如，添加“首页”、“归档”、“分类”、“标签”等。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="string">/categories/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-th</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-tags</span></span><br><span class="line">  <span class="attr">about:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="4-侧边栏配置"><a href="#4-侧边栏配置" class="headerlink" title="4. 侧边栏配置"></a>4. 侧边栏配置</h4><p>侧边栏可以显示多种小部件，如最新文章、分类、标签云等。根据需要启用或禁用。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="comment"># ... 其他配置项 ...</span></span><br><span class="line">  <span class="attr">display:</span></span><br><span class="line">    <span class="attr">post:</span> <span class="literal">true</span> <span class="comment"># 在文章页面显示侧边栏</span></span><br><span class="line">    <span class="attr">page:</span> <span class="literal">false</span> <span class="comment"># 在独立页面不显示侧边栏</span></span><br><span class="line">  <span class="comment"># ... 其他配置项 ...</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="5-代码高亮"><a href="#5-代码高亮" class="headerlink" title="5. 代码高亮"></a>5. 代码高亮</h4><p>Next 主题默认支持代码高亮。确保 <code>_config.yml</code> 中的 <code>highlight</code> 配置正确，并可以在 <code>_config.next.yml</code> 中进一步配置样式。</p>
+<p>在 <code>_config.yml</code> 中，确保以下配置开启：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.yml</span></span><br><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># ... 其他配置 ...</span></span><br></pre></td></tr></table></figure>
+
+<p>在 <code>_config.next.yml</code> 中，可以配置高亮主题：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="attr">highlight_theme:</span> <span class="string">atom-one-dark</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="6-网站基本信息"><a href="#6-网站基本信息" class="headerlink" title="6. 网站基本信息"></a>6. 网站基本信息</h4><p>在 <code>_config.next.yml</code> 中配置网站的标题、描述、作者等信息，这些信息将显示在博客的头部和页脚。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">iqijun&#x27;s</span> <span class="string">Blog</span> <span class="comment"># 你的博客标题</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">iqijun</span> <span class="comment"># 作者名</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">记录学习与生活，分享技术与思考</span> <span class="comment"># 博客描述</span></span><br><span class="line"><span class="attr">keywords:</span> <span class="string">Hexo,</span> <span class="string">Next,</span> <span class="string">技术,</span> <span class="string">博客</span> <span class="comment"># 关键词</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="string">/images/avatar.jpg</span> <span class="comment"># 头像路径</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="插件配置"><a href="#插件配置" class="headerlink" title="插件配置"></a>插件配置</h2><p>Next 主题强大的地方在于其与众多 Hexo 插件的完美结合。我们将配置以下实用且有趣的插件，进一步提升博客的用户体验和互动性。</p>
+<h3 id="1-本地搜索（hexo-generator-searchdb）"><a href="#1-本地搜索（hexo-generator-searchdb）" class="headerlink" title="1. 本地搜索（hexo-generator-searchdb）"></a>1. 本地搜索（hexo-generator-searchdb）</h3><p>为你的博客添加本地搜索功能，无需依赖第三方服务。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<p>在全局配置文件 <code>_config.yml</code> 中添加如下配置：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.yml</span></span><br><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<p>在 <code>_config.next.yml</code> 中启用搜索模块：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># ... 其他配置 ...</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-字数统计（hexo-word-counter）"><a href="#2-字数统计（hexo-word-counter）" class="headerlink" title="2. 字数统计（hexo-word-counter）"></a>2. 字数统计（hexo-word-counter）</h3><p>显示文章的字数和阅读时长，让读者对文章长度有一个直观的了解。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-word-counter --save</span><br></pre></td></tr></table></figure>
+
+<p>在 <code>_config.yml</code> 中添加配置：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.yml</span></span><br><span class="line"><span class="attr">word_counter:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">post_wordcount:</span> <span class="literal">true</span> <span class="comment"># 文章字数</span></span><br><span class="line">  <span class="attr">min2read:</span> <span class="literal">true</span>       <span class="comment"># 阅读时长</span></span><br><span class="line">  <span class="attr">total_wordcount:</span> <span class="literal">true</span> <span class="comment"># 站点总字数</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-阅读进度条"><a href="#3-阅读进度条" class="headerlink" title="3. 阅读进度条"></a>3. 阅读进度条</h3><p>Next 主题内置了阅读进度条功能。在 <code>_config.next.yml</code> 中启用即可：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkospace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">scrollpercent:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-Canvas-Ribbon-动画"><a href="#4-Canvas-Ribbon-动画" class="headerlink" title="4. Canvas Ribbon 动画"></a>4. Canvas Ribbon 动画</h3><p>为博客页面增添生动的背景动画效果。Next 主题内置了多种动画效果，这里我们启用 Canvas Ribbon。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">canvas_ribbon:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">size:</span> <span class="number">150</span> <span class="comment"># 线条长度</span></span><br><span class="line">  <span class="attr">alpha:</span> <span class="number">0.6</span> <span class="comment"># 透明度</span></span><br><span class="line">  <span class="attr">zIndex:</span> <span class="number">-1</span> <span class="comment"># Z轴，确保在背景</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="5-FancyBox-图片缩放"><a href="#5-FancyBox-图片缩放" class="headerlink" title="5. FancyBox 图片缩放"></a>5. FancyBox 图片缩放</h3><p>点击图片时，以优雅的方式进行缩放显示。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-theme-next-fancybox --save</span><br></pre></td></tr></table></figure>
+
+<p>在 <code>_config.next.yml</code> 中启用：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="6-Motion-动画效果"><a href="#6-Motion-动画效果" class="headerlink" title="6. Motion 动画效果"></a>6. Motion 动画效果</h3><p>Next 主题内置了丰富的 Motion 动画效果，提升页面切换和元素显示的平滑度。在 <code>_config.next.yml</code> 中启用即可：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.next.yml</span></span><br><span class="line"><span class="attr">motion:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># ... 其他配置项 ...</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="部署到-GitHub-Pages"><a href="#部署到-GitHub-Pages" class="headerlink" title="部署到 GitHub Pages"></a>部署到 GitHub Pages</h2><p>将你的 Hexo 博客部署到 GitHub Pages 是最常见且免费的方式之一，可以实现静态网站的托管。</p>
+<h3 id="1-Git-配置"><a href="#1-Git-配置" class="headerlink" title="1. Git 配置"></a>1. Git 配置</h3><p>首先，确保你已经安装了 Git，并配置了你的用户名和邮箱。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;Your Name&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-SSH-密钥配置"><a href="#2-SSH-密钥配置" class="headerlink" title="2. SSH 密钥配置"></a>2. SSH 密钥配置</h3><p>为了方便部署，建议配置 SSH 密钥，这样在推送代码时无需重复输入密码。</p>
+<ol>
+<li><p><strong>生成 SSH 密钥：</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>一路回车，直到生成密钥。密钥文件通常在 <code>~/.ssh/id_rsa</code> (私钥) 和 <code>~/.ssh/id_rsa.pub</code> (公钥)。</p>
+</li>
+<li><p><strong>将公钥添加到 GitHub：</strong></p>
+<p>复制 <code>~/.ssh/id_rsa.pub</code> 的内容，然后登录 GitHub，进入 <code>Settings -&gt; SSH and GPG keys -&gt; New SSH key</code>，将公钥粘贴进去。</p>
+</li>
+</ol>
+<h3 id="3-部署命令"><a href="#3-部署命令" class="headerlink" title="3. 部署命令"></a>3. 部署命令</h3><p>安装 <code>hexo-deployer-git</code> 插件：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>在全局配置文件 <code>_config.yml</code> 中配置 <code>deploy</code> 部分。</p>
+<h3 id="4-双仓库部署策略"><a href="#4-双仓库部署策略" class="headerlink" title="4. 双仓库部署策略"></a>4. 双仓库部署策略</h3><p>为了实现博客内容的管理和最终部署页面的分离，我们可以采用双仓库部署策略。例如，将博客的源文件部署到一个私有仓库的 <code>gh-pages</code> 分支，将生成的静态页面部署到另一个公开仓库的 <code>master</code> 分支（用于 <code>iqijun.github.io</code>）。</p>
+<p>我的部署配置如下，部署到两个仓库：<code>iqijun/blog</code> (gh-pages 分支) 和 <code>iqijun/iqijun.github.io</code> (master 分支)。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ~/codeworkspace/blog/_config.yml</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span></span><br><span class="line">    <span class="attr">github_source:</span> <span class="string">git@github.com:iqijun/blog.git,gh-pages</span></span><br><span class="line">    <span class="attr">github_pages:</span> <span class="string">git@github.com:iqijun/iqijun.github.io.git,master</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span> <span class="comment"># 部署到gh-pages分支时指定</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>注意：</strong> 上述 <code>repo</code> 配置中的 <code>github_source</code> 和 <code>github_pages</code> 是我自定义的键名，你可以根据自己的需求命名。重要的是后面跟着的仓库地址和分支名。</p>
+<p>部署时，执行命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>部署完成后，可以通过 <code>https://iqijun.github.io</code> 访问你的博客。</p>
+<h2 id="总结与建议"><a href="#总结与建议" class="headerlink" title="总结与建议"></a>总结与建议</h2><p>通过本次 Hexo 升级和 Next 主题的配置，我的博客实现了：</p>
+<ul>
+<li><strong>性能提升：</strong> Hexo 核心和依赖的更新，带来了约 40% 的构建速度提升。</li>
+<li><strong>安全性增强：</strong> 修复了 19 个安全漏洞，博客运行更加稳定可靠。</li>
+<li><strong>用户体验优化：</strong> Next 主题的 Pisces Scheme、暗黑模式、本地搜索、阅读进度条、Canvas Ribbon 动画、FancyBox 等功能，极大提升了博客的视觉效果和交互性。</li>
+<li><strong>开发体验改进：</strong> Node.js 18+ 的支持，保证了与现代开发环境的兼容性。</li>
+</ul>
+<h3 id="最佳实践"><a href="#最佳实践" class="headerlink" title="最佳实践"></a>最佳实践</h3><ul>
+<li><strong>定期备份：</strong> 养成定期备份博客源文件的好习惯。</li>
+<li><strong>版本控制：</strong> 使用 Git 管理博客源文件，方便回溯和协作。</li>
+<li><strong>_config.next.yml：</strong> 始终使用 <code>_config.next.yml</code> 来配置 Next 主题，避免主题更新覆盖你的配置。</li>
+<li><strong>逐步升级：</strong> 对于大规模版本升级，建议先在一个测试环境中进行，确认无误后再应用到生产环境。</li>
+<li><strong>关注官方文档：</strong> Next 主题的官方文档非常详尽，是解决问题和发掘新功能的最佳途径。</li>
+</ul>
+<h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><ul>
+<li><strong>部署失败：</strong> 检查 Git 配置、SSH 密钥是否正确，以及 <code>_config.yml</code> 中 <code>deploy</code> 部分的仓库地址和分支名是否无误。</li>
+<li><strong>主题样式错乱：</strong> 尝试清除 Hexo 缓存 (<code>hexo clean</code>)，然后重新生成 (<code>hexo generate</code>)。检查 <code>_config.next.yml</code> 中的配置是否正确。</li>
+<li><strong>插件不生效：</strong> 确保插件已正确安装 (<code>npm install</code>)，并在 <code>_config.yml</code> 或 <code>_config.next.yml</code> 中启用了相应功能。</li>
+</ul>
+<p>希望这篇指南能帮助你顺利升级 Hexo 博客并配置出令人满意的 Next 主题！</p>
+
+      
+    </div>
+
+    
+    
     
 
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          终于把这博客搭起来了，今后的日子就在这里记录些自己的东西。人的惰性真的是越不克服，就会变的越‘强大’，上学的时候在新浪上写过几篇，刚毕业的时候转战的到CSDN。但都没能坚持下来，总共也就写了寥寥几篇。刚毕业的时候想自己搭个blog但舍不得每年一百大洋的服务器的费用。等舍得花钱租服务器的时候，又四处出
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/04/02/第一篇/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
     <footer class="post-footer">
-      
-
-      
-
-      
-      
         <div class="post-eof"></div>
       
     </footer>
   </article>
+</div>
+
+
 
 
     
-  </section>
 
+
+<div class="post-block">
+  
   
 
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2023/07/01/Obsidian%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95-1/">
 
-          </div>
-          
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
 
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
 
-          
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/07/01/Obsidian%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95-1/" class="post-title-link" itemprop="url">Obsidian插件使用记录</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-07-01 12:09:50" itemprop="dateCreated datePublished" datetime="2023-07-01T12:09:50+00:00">2023-07-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9D%82%E8%B0%88/" itemprop="url" rel="index"><span itemprop="name">杂谈</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>53</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
 
         </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="Dataview"><a href="#Dataview" class="headerlink" title="Dataview"></a>Dataview</h1><h2 id="查看“周报”目录下的所有的文件"><a href="#查看“周报”目录下的所有的文件" class="headerlink" title="查看“周报”目录下的所有的文件"></a>查看“周报”目录下的所有的文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">list </span><br><span class="line">from &quot;周报&quot;</span><br><span class="line">sort file.ctime desc</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="查看“周报”目录下所有未完成的任务"><a href="#查看“周报”目录下所有未完成的任务" class="headerlink" title="查看“周报”目录下所有未完成的任务"></a>查看“周报”目录下所有未完成的任务</h2><blockquote>
+<p>暂未实现按时间排序</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">task </span><br><span class="line">from &quot;周报&quot;</span><br><span class="line">where !completed</span><br></pre></td></tr></table></figure>
+
+
+
+      
     </div>
-  </div>
 
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
+    
+    
+    
 
+    <footer class="post-footer">
+        <div class="post-eof"></div>
       
-
-      
-
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.jpg"
-               alt="骐骏" />
-          <p class="site-author-name" itemprop="name">骐骏</p>
-          <p class="site-description motion-element" itemprop="description"></p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/iqijun" target="_blank">
-                  
-                    <i class="fa fa-globe"></i>
-                  
-                  github
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="http://weibo.com/iqijun" target="_blank">
-                  
-                    <i class="fa fa-globe"></i>
-                  
-                  weibo
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        <div class="links-of-blogroll motion-element">
-          
-        </div>
-
-      </section>
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2016</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">骐骏</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
-  </a>
-</div>
-
-
-
-      </div>
     </footer>
+  </article>
+</div>
 
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2022/06/05/%E4%BB%8E%E6%8A%80%E6%9C%AF%E8%B5%B0%E5%90%91%E7%AE%A1%E7%90%86%EF%BC%9A%E6%9D%8E%E5%85%83%E8%8A%B3%E5%8D%87%E8%81%8C%E8%AE%B0%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/06/05/%E4%BB%8E%E6%8A%80%E6%9C%AF%E8%B5%B0%E5%90%91%E7%AE%A1%E7%90%86%EF%BC%9A%E6%9D%8E%E5%85%83%E8%8A%B3%E5%8D%87%E8%81%8C%E8%AE%B0%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89-1/" class="post-title-link" itemprop="url">从技术走向管理：李元芳升职记（第3版）（下）</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-06-05 00:16:08" itemprop="dateCreated datePublished" datetime="2022-06-05T00:16:08+00:00">2022-06-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6/" itemprop="url" rel="index"><span itemprop="name">读过的书</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>11k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>41 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>从技术走向管理：李元芳升职记（第3版）<br />王树文<br><a name="ade0d77a"></a></p>
+<h2 id="第二篇：羽翼渐丰"><a href="#第二篇：羽翼渐丰" class="headerlink" title="第二篇：羽翼渐丰"></a>第二篇：羽翼渐丰</h2><blockquote>
+<p>‘承上’就是正确理解公司领导的意图、执行公司的战略方针、对公司领导部署的任务负责、给上司提供合理化建议等；‘启下’就是组织团队成员执行公司的战略部署、带领团队完成工作目标、对团队成员的利益和进步负责等。通过中层管理者的‘承上’和‘启下’，在保持上（公司）、中（中层管理者）、下（员工）一致性的同时，满足公司和下属的利益诉求。”</p>
+</blockquote>
+<p><a name="c928cf84"></a></p>
+<h3 id="054-中层管理者应有的角色认知"><a href="#054-中层管理者应有的角色认知" class="headerlink" title="054.中层管理者应有的角色认知"></a>054.中层管理者应有的角色认知</h3><p>中层管理者应该从如下五个方面正确认识和对待自己的岗位职能。</p>
+<ol>
+<li><p>将自己定位为“服务人员”。</p>
+</li>
+<li><p>平衡公司和员工的期望。</p>
+<blockquote>
+<p>通过带领团队为公司创造业绩，在创造业绩的同时合理地为员工谋福利，这样的管理者才能既得到公司的认可又得到下属的拥护。</p>
+</blockquote>
+</li>
+<li><p>多采用“和缓”的交流方式。</p>
+</li>
+<li><p>少考虑自己，多考虑别人。</p>
+<blockquote>
+<p>作为管理者，我们除了“经济收入”，还有诸如综合能力的培养机会、人脉关系的建立机会等一般员工所没有的待遇，而这些往往是我们获得更高“经济收入”的基础和保障</p>
+</blockquote>
+</li>
+<li><p>正确对待上司、下属和自己</p>
+</li>
+</ol>
+<p><a name="31f4d269"></a></p>
+<h3 id="056-“天使”与“天使的行为”"><a href="#056-“天使”与“天使的行为”" class="headerlink" title="056.“天使”与“天使的行为”"></a>056.“天使”与“天使的行为”</h3><blockquote>
+<p>不可能让每个人都变成“天使”，但可以通过规章制度和考核激励办法来让每个人都做出‘天使的行为’，因为光有制度但缺乏激励，有些员工还是会不在乎的</p>
+</blockquote>
+<p><a name="e637f6f3"></a></p>
+<h3 id="057-“特殊”员工“特别”对待"><a href="#057-“特殊”员工“特别”对待" class="headerlink" title="057.“特殊”员工“特别”对待"></a>057.“特殊”员工“特别”对待</h3><blockquote>
+<p>七种类型的‘特殊’员工：</p>
+</blockquote>
+<ul>
+<li><p>个性很强的员工、</p>
+<blockquote>
+<p>个性很强的员工能力也往往比较突出，针对这种类型的员工，比较有效的管理办法是在工作过程中尽量多体现这类员工的重要性，多给予他们一些尊重和重视，多征求和听取他们的意见或建议。</p>
+</blockquote>
+</li>
+<li><p>过于敏感的员工、</p>
+<blockquote>
+<p>针对过于敏感的员工，在工作过程中，宜采用委婉的方式和他们沟通，点到为止，让他们自己去领悟管理者言语的真正含义，避免采用强硬或直白的语气指出他们的错误或不足。</p>
+</blockquote>
+</li>
+<li><p>业绩平平的员工、</p>
+<blockquote>
+<p>针对业绩平平的员工，多拿考核数据和他们说话，让他们清楚自己在团队中的位置，适当的时候可以举一些他们身边的真实例子，让他们感受到外界的压力，从而激发他们的潜能。</p>
+</blockquote>
+</li>
+<li><p>眼高手低的员工、</p>
+<blockquote>
+<p>针对眼高手低的员工，可以有意安排他们干点‘大事’，让他们从‘无从下手’的尴尬局面中清醒并逐步意识到自己的真正‘分量’。</p>
+</blockquote>
+</li>
+<li><p>消极悲观的员工</p>
+<blockquote>
+<p>针对消极悲观的员工，多安排他们与积极乐观的同事共事，让他们受到潜移默化的影响；同时注意安排一些难度不大的事情给他们，让他们不断‘成功’，从而增加他们的自信心。</p>
+</blockquote>
+</li>
+<li><p>过于自信的员工</p>
+<blockquote>
+<p>针对过于自信的员工，宜给他们布置一些‘高难度’的工作任务，让他们遭遇一些‘挫败’，打压他们过于自信的气焰。</p>
+</blockquote>
+</li>
+<li><p>有靠山的员工</p>
+<blockquote>
+<p>针对有靠山的员工，可以这样做：让他们清楚你知道他们的靠山是谁；明确告知他们，公司聘用他们关注的是其能力而不是其关系；在必要的时候请靠山给他们‘施压’</p>
+</blockquote>
+</li>
+</ul>
+<p><a name="d74eec3e"></a></p>
+<h3 id="058-制度建设与人文关怀"><a href="#058-制度建设与人文关怀" class="headerlink" title="058.制度建设与人文关怀"></a>058.制度建设与人文关怀</h3><blockquote>
+<p>这个理论是1960年美国心理学家道格拉斯·麦格雷戈在其所著的《企业中人的方面》一书中提出来的。该理论是有关人性的两种截然不同的观点：一种是消极的‘X理论’，另一种是积极的‘Y理论’。”表哥说：“没错，其实‘X理论’倡导制度建设，‘Y理论’倡导人文关怀</p>
+</blockquote>
+<blockquote>
+<p>我们可以把管理者分成两种类型：一种是倾向于通过人文关怀来实施管理的‘关怀型’，另一种是倾向于通过制度建设来实施管理的‘创制型’。大部分从技术走向管理的管理者倾向于‘创制型’，</p>
+</blockquote>
+<p><a name="fce6c83d"></a></p>
+<h3 id="059-管理者的“五心”领导术"><a href="#059-管理者的“五心”领导术" class="headerlink" title="059.管理者的“五心”领导术"></a>059.管理者的“五心”领导术</h3><p><img src="https://cdn.nlark.com/yuque/0/2022/png/1257641/1654353784961-512d968a-c5cc-443d-a483-27ee96acf0ab.png#clientId=u0e6bb2b0-a685-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=297&id=uc88945ad&margin=%5Bobject%20Object%5D&name=image.png&originHeight=740&originWidth=720&originalType=binary&ratio=1&rotation=0&showTitle=false&size=114448&status=done&style=none&taskId=u3bc15a2a-94a2-4a1f-b429-b454955f207&title=&width=289" alt="image.png"></p>
+<blockquote>
+<p>中层管理者要想最大限度地履行好自己的岗位职责，首先需要做到‘五心’：尽心、关心、细心、虚心和耐心。”<br>尽心：管理者是服务者，需要尽心尽力地履行好自己对下属和所任职部门的服务职责。<br>关心：人最关心的就是自己。管理者如果真诚地关心下属，下属肯定会更愿意敞开自己的心扉和上司沟通，也更愿意按上司的部署执行任务。<br>细心：“细节决定成败”，关注细节，细致入微地发现下属的需求和难处，这样的管理者定能获得下属的拥戴。<br>虚心：“三人行，必有我师”，管理者需要虚心，切忌在下属面前好为人师；成为下属的朋友，下属会更乐意向上司学习。<br>耐心：人不可能一教就会、一说就懂，管理者在培养下属时，需要拥有足够的耐心。</p>
+</blockquote>
+<p><a name="34990aec"></a></p>
+<h3 id="060-用系统方法代替过往经验"><a href="#060-用系统方法代替过往经验" class="headerlink" title="060.用系统方法代替过往经验"></a>060.用系统方法代替过往经验</h3><blockquote>
+<p><strong>您今天的成绩是未来取得更大成绩的最大障碍</strong></p>
+</blockquote>
+<p><a name="96887e67"></a></p>
+<h3 id="065-在哪里跌倒，就在哪里趴下"><a href="#065-在哪里跌倒，就在哪里趴下" class="headerlink" title="065.在哪里跌倒，就在哪里趴下"></a>065.在哪里跌倒，就在哪里趴下</h3><p>在哪里跌倒就在哪里趴下是指，工作中出现失误或者错误时，不要执迷不悟，在以后的工作中继续重复以往的错误，而是应该总结反思，找到失误或者错误的真正原因并把他解决。</p>
+<blockquote>
+<p>以铜为镜，可以正衣冠；以史为镜，可以知兴替；以人为镜，可以明得失。’成长自我最好的方式就是反求诸己；经常反省自己，方能成就卓越。</p>
+</blockquote>
+<p><a name="CPDxF"></a></p>
+<h2 id="第三篇：-向管理高手进发"><a href="#第三篇：-向管理高手进发" class="headerlink" title="第三篇： 向管理高手进发"></a>第三篇： 向管理高手进发</h2><p><a name="7811f6d3"></a></p>
+<h3 id="068-管理者的成功建立在团队和下属成功的基础之上"><a href="#068-管理者的成功建立在团队和下属成功的基础之上" class="headerlink" title="068.管理者的成功建立在团队和下属成功的基础之上"></a>068.管理者的成功建立在团队和下属成功的基础之上</h3><p><strong>管理者会议主题：</strong></p>
+<blockquote>
+<p>一是部署这一年各部门的工作任务，<br>二是就新的一年中心管理工作如何开展听取大家的意见和建议，<br>三是探讨如何实现管理者的成功之路。</p>
+</blockquote>
+<p><strong>管理者的考核标准：</strong></p>
+<blockquote>
+<p>考核技术人员的业绩主要看该技术人员个人的价值贡献，而考核管理者的业绩应该主要看团队的价值和贡献。衡量一名管理者是否优秀，不是看他个人做了什么事、做了多少事、把事做得有多好，而是看他所带领的团队做了什么事、做了多少事、把事做得有多好。</p>
+</blockquote>
+<blockquote>
+<p>基于以上观点，大家认为以后向我报告业绩时，应该怎么做？”所有正副部门经理异口同声地回答道：“大家以后向您汇报业绩时，不要讲‘我’做得怎样，而应该讲‘我们团队’做得怎样。”</p>
+</blockquote>
+<blockquote>
+<p>管理者如何实现自己的成功之路》，核心的一句话如下。<strong>团队成就管理者，管理者的成功建立在团队和下属成功的基础之上，管理者想让自己成功，唯一的途径就是先让团队和下属成功</strong></p>
+</blockquote>
+<p><a name="37528b07"></a></p>
+<h3 id="069-“诊断”与“处方”"><a href="#069-“诊断”与“处方”" class="headerlink" title="069.“诊断”与“处方”"></a>069.“诊断”与“处方”</h3><blockquote>
+<p>作为管理者，我们往往习惯于根据自己的经验和偏好主观臆断，然后根据自己所判断的原因去解决问题，其实这样做是大错特错的。因为没有弄清楚问题出现的原因，就不可能找到解决问题的方案。要想真正解决问题，最好的办法就是先“诊断”问题出现的原因，再根据具体的原因给出有针对性的解决方案。管理者请切记：先诊断，再开方！</p>
+</blockquote>
+<p><a name="9def3cd4"></a></p>
+<h3 id="070-从事实出发来实施管理"><a href="#070-从事实出发来实施管理" class="headerlink" title="070.从事实出发来实施管理"></a>070.从事实出发来实施管理</h3><blockquote>
+<p>从事实出发来实施管理是对管理者的基本要求。很多时候我们出现了管理失误，其实问题往往不是出在管理手段或管理方法上，而是出在我们对事情的判断上。有时候我们认为管理很难，其实在相当多的时候，不是难在找解决方案上，而是难在对事情和原因的本质判断上，难在如何正确把握事实真相上。管理者切记：要从事实出发来实施管理。在没有弄清楚事实真相之前，不要轻易挥动管理的“大棒”，当然也不要随便使用管理的“胡萝卜”。</p>
+</blockquote>
+<p><a name="cf3f51a5"></a></p>
+<h3 id="071-Think、Talk和Do"><a href="#071-Think、Talk和Do" class="headerlink" title="071.Think、Talk和Do"></a>071.Think、Talk和Do</h3><blockquote>
+<p>所谓‘Do’，就是做具体的事情；<br>所谓‘Think’，就是思考做什么事情，以及如何做事情；<br>所谓‘Talk’，就是宣传公司价值观、愿景、先进思想和理念等</p>
+</blockquote>
+<blockquote>
+<p>作为中层管理者，其主要职责就是带领下属去实现公司确定的战略目标和工作指标，因此，我们通过什么途径去实现，也就是做什么事及用什么方法去实现，即如何做事，就成为重点。因此，<strong>对于中层管理者来说，在通常情况下，三者的重要性排序应该是‘Think’第一位、‘Talk’第二位、‘Do’第三位。”</strong></p>
+</blockquote>
+<blockquote>
+<p>对于公司高层领导来说，主要工作是让公司全体员工清楚公司的愿景、战略目标，建立统一的价值观，所以‘Talk’的职能更重要。对于基层一线员工来说，把具体的事情做好是他们的首要职责，所以‘Do’排第一位；其次就是思考有没有更好的办法把事情做好，所以‘Think’排第二位。</p>
+</blockquote>
+<blockquote>
+<p><strong>对于中层管理者来说，通常情况下，首先是“Think”，其次是“Talk”，最后是“Do”；对于高层领导来说，通常情况下，首先是“Talk”，其次是“Think”，最后是“Do”；对于基层一线员工来说，通常情况下，首先是“Do”，其次是“Think”，最后是“Talk”。</strong></p>
+</blockquote>
+<p><a name="f5631f12"></a></p>
+<h3 id="074-管理者要“授人以渔”"><a href="#074-管理者要“授人以渔”" class="headerlink" title="074.管理者要“授人以渔”"></a>074.管理者要“授人以渔”</h3><blockquote>
+<p>因为从长远来看，“授人以鱼”不利于提高团队成员的能力，不利于提升团队的绩效</p>
+</blockquote>
+<p><a name="85b97095"></a></p>
+<h3 id="075-人才甄选的“真经”"><a href="#075-人才甄选的“真经”" class="headerlink" title="075.人才甄选的“真经”"></a>075.人才甄选的“真经”</h3><p><strong>甄选人才需要把握六个基本标准：</strong></p>
+<blockquote>
+<p>一是‘以德为先’，<br>二是‘务实为本’，<br>三是‘良好的团队精神’，<br>四是‘较扎实的基础知识’，<br>五是‘认同企业文化’，<br>六是‘较强的发展潜力’。”</p>
+</blockquote>
+<p><strong>识别人才六项基本素质的实用方法</strong></p>
+<blockquote>
+<p>应聘者是否具有良好的道德情操，可以通过了解他以前的工作和学习情况来发现，也可以通过他的言谈举止来观察，因为一个人内心的想法多数时候会“溢于言表”。</p>
+</blockquote>
+<blockquote>
+<p>应聘者是否具有良好的务实精神，可以通过查看他们以前的工作履历来了解。如果由于个人原因频繁跳槽，这样的应聘者十有八九不属于务实型，聘用时需慎重考虑。</p>
+</blockquote>
+<blockquote>
+<p>应聘者是否具有良好的团队精神，可以通过他在一些竞技小游戏中的表现欲和占有欲的强烈程度来判断。</p>
+</blockquote>
+<blockquote>
+<p>应聘者是否具有良好的语文基础知识和数学基础知识，可以请他就某一个问题进行书面（或口头）阐述，通过他的表达清晰程度和分析理性程度来判断。</p>
+</blockquote>
+<blockquote>
+<p>应聘者对企业文化是否认同，可以通过向其介绍企业的规章制度、用人政策、薪酬政策等，来观察他所表现出来的认同程度。</p>
+</blockquote>
+<blockquote>
+<p>应聘者是否具有较强的发展潜力，可以通过他对事物的个人见解去了解。有些时候，通过观察应聘者的精神面貌也可以做出基本的判断，精神面貌积极、阳光的人，一般来说发展潜力都不错。</p>
+</blockquote>
+<blockquote>
+<p><strong>特别注意</strong>：选拔人才时还需要结合岗位对人才的能力素质的特别要求，综合权衡、合理取舍。我想，当我们能准确把握应聘者的六项基本素质后，我们很可能就是‘伯乐’，被我们招聘到的人才很可能就是‘千里马’。</p>
+</blockquote>
+<p><strong>管理者需要慎重聘用的六类人才:</strong></p>
+<blockquote>
+<p>第一类人才：个人简历与实际情况不符者（这类人才缺乏基本诚信，危害很大）</p>
+</blockquote>
+<blockquote>
+<p>第二类人才：频繁跳槽者（这类人才缺少工作定力，会“这山望着那山高”</p>
+</blockquote>
+<blockquote>
+<p>第三类人才：眼高手低者（这类人才大事干不了、小事不想干，结果干不成什么事</p>
+</blockquote>
+<blockquote>
+<p>第四类人才：夸夸其谈者（这类人才不务实，很难深入到具体的工作中</p>
+</blockquote>
+<blockquote>
+<p>第五类人才：过分看重个人利益者（这类人才私欲无穷，欲壑难填）。</p>
+</blockquote>
+<blockquote>
+<p>第六类人才：过分追求自我表现者（这类人才比较缺乏团队精神）。</p>
+</blockquote>
+<p><a name="50d88ab8"></a></p>
+<h3 id="076-管理者眼中的需求观"><a href="#076-管理者眼中的需求观" class="headerlink" title="076.管理者眼中的需求观"></a>076.管理者眼中的需求观</h3><blockquote>
+<p>需求是指发起人、客户和其他干系人的已量化且记录下来的需要与期望</p>
+</blockquote>
+<p><a name="bb9604bc"></a></p>
+<h3 id="078-“低头拉车”与“抬头看路”"><a href="#078-“低头拉车”与“抬头看路”" class="headerlink" title="078.“低头拉车”与“抬头看路”"></a>078.“低头拉车”与“抬头看路”</h3><blockquote>
+<p>技术经理在领导面前应该是专家，在专家面前应该是领导，这是技术经理对自己所承担的角色的明确定位</p>
+</blockquote>
+<blockquote>
+<p>在领导面前，应该用自己的专业知识为领导的决策提供依据，成为领导的左膀右臂；<br>在下属面前，应该多给他们支持和辅导，用自己的经验和能力引领团队去实现目标</p>
+</blockquote>
+<blockquote>
+<p>高调地唱着规划之歌，但歌声始终在空中飘荡，根本无法落地，这就是我们熟知的‘世事我曾努力，成败不能找我’</p>
+</blockquote>
+<blockquote>
+<p>作为中层管理者，我们虽然既需要‘抬头看路’，也需要‘低头拉车’，但**一定要先抬头把路看清楚，再低头奋力去拉车，**千万不要路都没看清楚，就急不可耐地去拉车！”</p>
+</blockquote>
+<p><a name="e91df962"></a></p>
+<h3 id="079-决策不能“拍脑袋”"><a href="#079-决策不能“拍脑袋”" class="headerlink" title="079.决策不能“拍脑袋”"></a>079.决策不能“拍脑袋”</h3><p>项目管理领域，有著名的‘<strong>六拍现象</strong>’</p>
+<blockquote>
+<p>领导在做项目决策时‘拍脑袋’；</p>
+</blockquote>
+<blockquote>
+<p> 领导对项目经理‘拍肩膀’进行授权；</p>
+</blockquote>
+<blockquote>
+<p>领导对项目经理说了一些不能兑现的溢美之词，项目经理激动地‘拍胸脯’做保证；</p>
+</blockquote>
+<blockquote>
+<p>随着项目令人失望的进展出现，领导经常‘拍桌子’训斥项目经理；</p>
+</blockquote>
+<blockquote>
+<p>项目经理因此‘拍屁股’甩手不干或消极怠工；</p>
+</blockquote>
+<blockquote>
+<p>其结果是大家都‘拍大腿’后悔不已。”</p>
+</blockquote>
+<p><a name="97aaffb7"></a></p>
+<h3 id="080-工作分派就该这样做"><a href="#080-工作分派就该这样做" class="headerlink" title="080.工作分派就该这样做"></a>080.工作分派就该这样做</h3><p><img src="https://cdn.nlark.com/yuque/0/2022/png/1257641/1654355206936-a555ec45-80b3-43b3-acfc-a7cb07546c38.png#clientId=u0e6bb2b0-a685-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=407&id=u694654f6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1462&originWidth=966&originalType=binary&ratio=1&rotation=0&showTitle=false&size=297962&status=done&style=none&taskId=u637dc8a2-8404-44ef-ba59-4357820ee07&title=&width=269" alt="image.png"><br /><strong>分配任务的步骤</strong></p>
+<blockquote>
+<p>第一步 了解下属的性格和能力：了解每一位下属的性格特点和所具备的能力，根据他们的性格特点和能力“因人派事”。</p>
+</blockquote>
+<blockquote>
+<p>第二步 跟下属明确工作内容、工作意义、工作时限及合格标准：和下属详细沟通被分派的工作为什么要做、做什么、需要多长时间完成及做到什么程度才算完成。判断下属是否清楚这些信息的标准是让他们复述，看他们所复述的意思与我们所表达的意思是否一致。</p>
+</blockquote>
+<blockquote>
+<p>第三步 明确下属的权力范围和责任：明确告诉下属，要他们完成这些工作，他们可以动用的资源、拥有的权力及必须承担的责任是什么。</p>
+</blockquote>
+<blockquote>
+<p>第四步 确认下属具备完成工作所需要的能力：确认下属有能力完成被分派的工作，如果能力不足，一定要及时给予培训和辅导。</p>
+</blockquote>
+<blockquote>
+<p>第五步 定期检查和监督下属的工作：通过检查、监督，了解下属的工作进展和工作质量及存在的问题，以便及时改进。</p>
+</blockquote>
+<blockquote>
+<p>第六步 及时给出评价和奖惩：按事先确定的时间和标准及时给予评价、奖励或惩罚。</p>
+</blockquote>
+<p>**分配任务的六个注意点： **</p>
+<blockquote>
+<p>第一点，‘因人派事’是让每个人尽量去做最适合他的工作，‘因人派事’不是‘因人设岗’，‘因人设岗’是根据人来设置工作岗位，如果这样做，企业中可能会增加一些并不需要的岗位，这样企业成本势必会大幅增加，这种做法也与‘企业是以市场为导向’的理念相悖。<br>第二点，在跟下属沟通工作内容、工作意义、工作时限及合格标准时，一定要让下属复述，不要简单地提‘你清楚了吗’这样的封闭式问题。<br>第三点，一定要让下属明确自己的权力范围和责任，避免反授权或过多请示。<br>第四点，不要只给任务，却不给必需的培养。<br>第五点，不要‘放羊’（网络用语，指散漫、无管制的自由状态）。<br>第六点，无论是该奖励还是该处罚，都一定要‘信守承诺’。”</p>
+</blockquote>
+<blockquote>
+<p>学习之后，一定要立即行动。有人说过，‘不是学习没有用（没有作用），而是因为我没有用（没有去使用），正因为我没有用（没有去使用），所以我没用（没有价值</p>
+</blockquote>
+<p><a name="1526158c"></a></p>
+<h3 id="082-激励比监督更重要"><a href="#082-激励比监督更重要" class="headerlink" title="082.激励比监督更重要"></a>082.激励比监督更重要</h3><blockquote>
+<p>不要像膏药一样贴在员工的后背上’</p>
+</blockquote>
+<p><a name="859a055b"></a></p>
+<h3 id="083-授权也是一种激励手段"><a href="#083-授权也是一种激励手段" class="headerlink" title="083.授权也是一种激励手段"></a>083.授权也是一种激励手段</h3><blockquote>
+<p>一些有挑战性的工作通过授权的方式分配给员工，一方面会让他们感受到自己的上司非常信任他们，这样就能够激发他们证明自己工作能力的热情；另一方面，员工有机会通过做一些有挑战性的工作而快速提升自己的能力，从而更加积极主动地工作。”</p>
+</blockquote>
+<blockquote>
+<p>很多人害怕授权，有两个主要原因：一是不放心下属，怕下属事情做不好；二是担心把“权”授给下属了，自己反而没“权”了</p>
+</blockquote>
+<p><strong>授权有两大主要好处：</strong></p>
+<blockquote>
+<p>一是授权可以让管理者自己不被一些琐事羁绊，进而把自己的精力放到更有价值的工作上去，从而提高自己的工作效率；</p>
+</blockquote>
+<blockquote>
+<p>二是授权能激励员工，进而提高员工的工作效率。</p>
+</blockquote>
+<p><a name="d833e044"></a></p>
+<h3 id="084-合理授权很重要"><a href="#084-合理授权很重要" class="headerlink" title="084.合理授权很重要"></a>084.合理授权很重要</h3><blockquote>
+<p>那些必须由管理者亲自去完成的工作，不管我们认为它们的紧急和重要程度如何，都是不能授权给下属去做的。否则，就会授权错误</p>
+</blockquote>
+<p><a name="8fd73e59"></a></p>
+<h3 id="085-管理者授“权”不授“责”"><a href="#085-管理者授“权”不授“责”" class="headerlink" title="085.管理者授“权”不授“责”"></a>085.管理者授“权”不授“责”</h3><blockquote>
+<p>作为管理者，我们应该授“权”不授“责”（事情可以授权下属去做，但责任仍然在管理者身上）</p>
+</blockquote>
+<blockquote>
+<p>这就告诉我们，管理者把事情授予下属去做后，一定要监督和检查，千万不要当“甩手掌柜”，撒手不管。</p>
+</blockquote>
+<p><a name="be6ee9fa"></a></p>
+<h3 id="086-不怕没有待遇，就怕没有希望"><a href="#086-不怕没有待遇，就怕没有希望" class="headerlink" title="086.不怕没有待遇，就怕没有希望"></a>086.不怕没有待遇，就怕没有希望</h3><p>一位员工看不到公司的未来和自己在公司里的未来基本上有两种原因：</p>
+<blockquote>
+<p>一种是公司或他所在的部门没有愿景、价值观和发展规划，或者他不清楚公司或他所在的部门的愿景、价值观和发展规划；</p>
+</blockquote>
+<blockquote>
+<p>另一种是他清楚公司或他所在的部门的愿景、价值观和发展规划，但这样的愿景、价值观和发展规划对他没有多少吸引力。”</p>
+</blockquote>
+<p><a name="8b12276a"></a></p>
+<h3 id="087-让基层员工得实惠，让高层员工有理想"><a href="#087-让基层员工得实惠，让高层员工有理想" class="headerlink" title="087.让基层员工得实惠，让高层员工有理想"></a>087.让基层员工得实惠，让高层员工有理想</h3><blockquote>
+<p>我们大致可以把部门员工分成两类，一类是刚入职不久的基层员工，另一类是已经成长为部门骨干型的‘高层次’员工。我们要做到‘让基层员工得实惠，让高层员工有理想’。”</p>
+</blockquote>
+<blockquote>
+<p>所谓‘让基层员工得实惠’就是通过绩效考核和绩效激励来影响他们每个月的收入；所谓‘让高层员工有理想’，就是尽量多地去为他们提供一些有挑战性的工作或岗位，让他们拥有实现自我价值的平台。”</p>
+</blockquote>
+<blockquote>
+<p>作为管理者，在人力资源管理方面，我们需要区别对待不同层次的员工。刚参加工作不久的员工，一般更在乎自己的收入；工龄较长的老员工，一般更在乎自我价值的实现。因此，作为管理者，我们需要把握好“让基层员工得实惠，让高层员工有理想”这一人力资源管理和激励的基本原则。</p>
+</blockquote>
+<p><a name="30adec90"></a></p>
+<h3 id="088-不要让“沉默”的人“寂寞”"><a href="#088-不要让“沉默”的人“寂寞”" class="headerlink" title="088.不要让“沉默”的人“寂寞”"></a>088.不要让“沉默”的人“寂寞”</h3><blockquote>
+<p>那些性格内向、平时少言寡语的员工其实更希望得到上司的肯定和认可，所以我们千万不要疏于对他们的关注、重视、激励、认可和表扬，一定要提醒自己根据他们的业绩主动给他们加薪和表扬，只有这样，我们才能让他们在自己的岗位上安心工作，才能让他们做出更大的贡献。总之，一句话：作为管理者，我们不要让“沉默”的人“寂寞”。</p>
+</blockquote>
+<p><a name="45434b5f"></a></p>
+<h3 id="089-让有才华的人没有犯错误的机会"><a href="#089-让有才华的人没有犯错误的机会" class="headerlink" title="089.让有才华的人没有犯错误的机会"></a>089.让有才华的人没有犯错误的机会</h3><blockquote>
+<p>很多管理者在遇到这种能力超强但缺点也十分突出的员工时，不知如何管理。我曾经困惑过，现在也没有完全走出困惑。今天我的一位网友提出了这样一个案例，我们进行了详细分析。根据我的经验，我认为比较合适的办法就是对他们的优点和缺点进行深入分析，然后通过诸如建立规章制度、加强日常管理、合理安排他们的工作内容等方式，尽量发挥他们的优点，避开他们的缺点，从而最大可能减少他们犯错误的机会。我认为，想杜绝这类员工犯错误恐怕很难，如果哪位管理者真的做到了，那他应该就是当今世界首屈一指的管理大师了。</p>
+</blockquote>
+<p><a name="e9a7dab1"></a></p>
+<h3 id="090-这样化解技术牛人之间的冲突"><a href="#090-这样化解技术牛人之间的冲突" class="headerlink" title="090.这样化解技术牛人之间的冲突"></a>090.这样化解技术牛人之间的冲突</h3><blockquote>
+<p>1）平时多找他们单独沟通，但要注意不要一遇到冲突，就把冲突双方喊到一起沟通；多利用一些非正式的沟通场合和他们沟通，效果往往会更好，因为技术牛人一般都比较敏感。</p>
+</blockquote>
+<blockquote>
+<p>2）你通过和他们的沟通，让他们明白你很重视他们、他们对部门很重要，同时要让他们明白商业活动不同于科研工作，比的不是技术绝对的好与坏，而是能不能多快好省地解决工作中遇到的问题。</p>
+</blockquote>
+<blockquote>
+<p>3）平时可以通过一些事例和案例在团队中灌输团队合作的重要性，在部门中多营造团队协作的工作环境和氛围，像设立‘合作贡献奖’就是不错的正面引导和激励的方式。</p>
+</blockquote>
+<blockquote>
+<p>4）在合适的条件下（注意所选择的时机一定是他们没有发生冲突的时候）创造一些机会，让那些平时在工作过程中合作有困难的技术牛人在一起沟通和交流（如拓展活动时，有意让他们分在同一组），建立和培养他们之间的感情，这样会让他们之间的合作朝良性方向发展。”</p>
+</blockquote>
+<blockquote>
+<p>技术牛人在一起共事，出现冲突和摩擦的可能性往往较大。我们知道，在商业活动中，技术是为解决问题服务的，严格区分技术的优劣，既是很难做到的，也是没有意义的。对于技术部门来说，技术无疑是很重要的，因此，我们也不能因为技术牛人之间有冲突和矛盾，就轻率地采用开除的方式来平息；如果这样做，会导致部门内部技术人才匮乏。技术牛人之间的冲突并非“洪水猛兽”，是可以有效预防和化解的。首先，预防胜于解决，作为技术部门的管理者，我们在平时应该多采用一些措施，预防技术牛人之间可能出现的冲突。另外，当冲突出现时，我们尽量想办法让冲突双方能平心静气地坐下来沟通，如果做不到就暂时把他们分开，让他们从事不会产生冲突的工作。</p>
+</blockquote>
+<p><a name="30de5b55"></a></p>
+<h3 id="091-管理者需要“鞭打慢牛”"><a href="#091-管理者需要“鞭打慢牛”" class="headerlink" title="091.管理者需要“鞭打慢牛”"></a>091.管理者需要“鞭打慢牛”</h3><blockquote>
+<p>鞭打快牛”似乎已经成为管理者追求团队高效益所必然采用的手段。然而，长期或过分地“鞭打快牛”不但起不到提高团队效益的作用，反而会降低团队效益和打击团队士气。因此，作为团队管理者，我们应该想方设法去“鞭打慢牛”。</p>
+</blockquote>
+<p><a name="717ac050"></a></p>
+<h3 id="092-外圆而内方"><a href="#092-外圆而内方" class="headerlink" title="092.外圆而内方"></a>092.外圆而内方</h3><blockquote>
+<p>一个好的管理者，应该做到原则性和灵活性相结合，即在不违背工作原则的同时，根据不同的情况适当变通。其实，“原则性”就是坚持执行工作规范和制度，“灵活性”就是实施必要的人文关怀。“外圆而内方”这个度把握好了，我们就能成为好的管理者。</p>
+</blockquote>
+<p><a name="5f85965f"></a></p>
+<h3 id="093-从指挥，到指导，到发动"><a href="#093-从指挥，到指导，到发动" class="headerlink" title="093.从指挥，到指导，到发动"></a>093.从指挥，到指导，到发动</h3><blockquote>
+<p>管理有三个层次：指挥、指导和发动。从管理者自身来说，我们应该由‘指挥团队’到‘指导团队’并尽快过渡到‘发动团队’；从管理者对下属的管理来说，应该对下属由‘指挥他’到‘指导他’并尽快过渡到‘发动他</p>
+</blockquote>
+<blockquote>
+<p>注重和聚焦如何去‘发动’团队，只有多‘发动’团队，我们的管理才会更轻松、业绩才会更突出。但具体到团队成员，由于他们的能力和工作经验不同，他们会处于‘指挥’‘指导’‘发动’的不同管理层次上</p>
+</blockquote>
+<blockquote>
+<p>作为管理者，我们需要根据团队成员的不同能力和工作经验去“指挥”“指导”“发动”他们，但我们的管理焦点或目标应该是如何更好地去“发动”他们</p>
+</blockquote>
+<p><a name="4a09e6fb"></a></p>
+<h3 id="094-培养下属良好习惯的六个要点"><a href="#094-培养下属良好习惯的六个要点" class="headerlink" title="094.培养下属良好习惯的六个要点"></a>094.培养下属良好习惯的六个要点</h3><blockquote>
+<p>任何人的习惯培养都是一个由被动到主动再到自动的过程</p>
+</blockquote>
+<p>认为培养下属的良好习惯需要注意以下六个要点。</p>
+<blockquote>
+<p>第一，提高下属的认识，让下属明白养成某一良好习惯对自己的意义和价值，从而让其对养成某一良好习惯产生浓厚的兴趣。因为兴趣是最好的老师，如果没有兴趣，你逼他去做，很难取得好的效果。</p>
+</blockquote>
+<blockquote>
+<p>第二，明确该习惯所对应的行为规范，让下属清楚养成某一良好习惯的具体标准。有了标准，他们就知道该如何操作了。</p>
+</blockquote>
+<blockquote>
+<p>第三，树立可供效仿的榜样，这个榜样最好是让下属自己去找，因为榜样是下属努力的标杆，是下属学习的参照对象。可以让他自己去和榜样做对比，但管理者要注意，不要在下属面前拿该下属与榜样做比较。</p>
+</blockquote>
+<blockquote>
+<p>第四，持之以恒的行为训练。一般来说，二十一天可以形成初步习惯，九十天的持续训练能形成比较稳定的习惯。</p>
+</blockquote>
+<blockquote>
+<p>第五，及时评估和有效奖惩，以激励和奖励为主导，体现上司对下属的关心、重视并持续提供下属养成某一良好习惯所需要的外在推动力。</p>
+</blockquote>
+<blockquote>
+<p>第六，营造良好的团队环境和氛围，从而为下属持续呈现这一良好习惯提供‘土壤’。这个要点的意思是说，如果大家都这样做了，那么没有这样做的人就会觉得自己脱离了队伍，从而感觉到‘压力’，进而‘迫使’自己养成大家都有的良好习惯。”</p>
+</blockquote>
+<p><a name="a0259dfa"></a></p>
+<h3 id="095-绩效考核应该这样做"><a href="#095-绩效考核应该这样做" class="headerlink" title="095.绩效考核应该这样做"></a>095.绩效考核应该这样做</h3><p><strong>总结绩效考核主要包括七个方面，</strong></p>
+<blockquote>
+<p>（1）绩效考核动员，让被考核者理解绩效考核对自身的好处，让他们从心里乐于接受绩效考核；</p>
+</blockquote>
+<blockquote>
+<p>（2）绩效考核办法的制定，围绕岗位职责和工作内容，和被考核者一起制定合理、科学的绩效考核办法；</p>
+</blockquote>
+<blockquote>
+<p>（3）绩效考核办法的宣传，让被考核者充分了解绩效考核指标，清楚自己的行动方向；</p>
+</blockquote>
+<blockquote>
+<p>（4）绩效考核的辅导，根据工作需要对被考核者进行培养和辅导，让被考核者具备绩效考核指标要求的能力；</p>
+</blockquote>
+<blockquote>
+<p>（5）绩效考核办法的执行，不折不扣、公平、公正、公开地执行绩效考核办法；</p>
+</blockquote>
+<blockquote>
+<p>（6）绩效考核结果的面谈，让被考核者知道自己的绩效考核结果，并向其解释绩效考核结果，指出其成绩和待改进之处；</p>
+</blockquote>
+<blockquote>
+<p>（7）绩效考核总结，总结绩效考核办法和绩效考核过程的经验和不足，作为下一绩效考核周期内绩效考核改进的依据</p>
+</blockquote>
+<blockquote>
+<p>说到做到才能建立威信关于绩效考核办法的执行，我们会像您当时那样，按‘章’兑现，说到做到，不折不扣地实现我们当时对员工的承诺</p>
+</blockquote>
+<blockquote>
+<p>关于绩效考核办法的执行，我们会像您当时那样，按‘章’兑现，说到做到，不折不扣地实现我们当时对员工的承诺</p>
+</blockquote>
+<p><strong>关于绩效考核结果，准备从如下几个方面开展工作：</strong></p>
+<blockquote>
+<p>第一个方面是被考核者在绩效考核周期内的主要工作和各项考核指标的完成情况；</p>
+</blockquote>
+<blockquote>
+<p>第二个方面是被考核者实际的绩效考核结果；</p>
+</blockquote>
+<blockquote>
+<p>第三个方面是被考核者在考核周期内所取得的主要成绩和进步；</p>
+</blockquote>
+<blockquote>
+<p>第四个方面是被考核者在完成绩效考核指标方面遇到的问题和存在的不足；</p>
+</blockquote>
+<blockquote>
+<p>第五个方面是被考核者哪些方面需要改进以及如何改进；</p>
+</blockquote>
+<blockquote>
+<p>第六个方面是与被考核者沟通下一绩效考核周期内的主要工作；</p>
+</blockquote>
+<blockquote>
+<p>第七个方面是提出对被考核者在下一绩效考核周期内的工作绩效的期望。”</p>
+</blockquote>
+<p>你可以根据需要，在与被考核者就绩效考核结果进行面谈时增加这三个部分：</p>
+<blockquote>
+<p>与被考核者一起探讨当前岗位所需能力，以及被考核者所拥有的优势和存在的不足；</p>
+</blockquote>
+<blockquote>
+<p>与被考核者一起探讨其个人发展计划，以便在新的考核周期内为他提供合适的工作和培训机会；</p>
+</blockquote>
+<blockquote>
+<p>征求被考核者对管理者或团队工作的意见和看法。”</p>
+</blockquote>
+<p>作为考核者，在与被考核者就绩效考核结果进行面谈时，希望你能注意以下六个步骤：</p>
+<blockquote>
+<p>第一，面谈前进行充分的准备；</p>
+</blockquote>
+<blockquote>
+<p>第二，安排合适的面谈时机和场所，明确面谈的时长；</p>
+</blockquote>
+<blockquote>
+<p>第三，用合适的开场白引导对方轻松进入面谈主题；</p>
+</blockquote>
+<blockquote>
+<p>第四，在面谈过程中，注意根据实际需要，采用引导、提问、聆听、探讨等多种方式，让沟通既愉悦又高效；</p>
+</blockquote>
+<blockquote>
+<p>第五，面谈结束前，要进行必要的总结，并得到下属的认同；</p>
+</blockquote>
+<blockquote>
+<p>第六，面谈结束时，记得鼓励和表扬下属。”</p>
+</blockquote>
+<p><a name="e68b6c81"></a></p>
+<h3 id="097-这样处理员工的工作偏差"><a href="#097-这样处理员工的工作偏差" class="headerlink" title="097.这样处理员工的工作偏差"></a>097.这样处理员工的工作偏差</h3><blockquote>
+<p>处理员工工作偏差方面存在两个需要注意的地方：<br>一是在处理员工工作偏差时对员工有负面看法；<br>二是对工作偏差出现的原因分析得不够，员工不明白究竟需要从哪些方面改进，这就导致员工无法找到真正合适的改进方案。”</p>
+</blockquote>
+<p><img src="https://cdn.nlark.com/yuque/0/2022/png/1257641/1654356346355-7a39e8f0-6091-439d-9208-c0519f7e5045.png#clientId=u0e6bb2b0-a685-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=332&id=u28ef7024&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1398&originWidth=1088&originalType=binary&ratio=1&rotation=0&showTitle=false&size=364770&status=done&style=none&taskId=u9ff87ee7-8925-4f07-97ae-d8198a45ffb&title=&width=257.9942932128906" alt="image.png"></p>
+<blockquote>
+<p>第一步： 做好处理前的准备工作：要处理好问题，先处理好心情。不要带着负面情绪去处理员工的工作偏差</p>
+</blockquote>
+<blockquote>
+<p>第二步：确认问题及导致问题的产生的真正原因。员工行为的改变来自内心对问题的正确认识。管理者需要客观的讲讲员工工作中的偏差呈现出来，并和员工一起分析导致问题出现的原因是什么，问题引发的后果是什么</p>
+</blockquote>
+<blockquote>
+<p>第三步： 提出并确定改进方案，和员工一起找出问题的解决方案</p>
+</blockquote>
+<blockquote>
+<p>第四步：确认员工知道如何改进，通过提问和反馈的形式，确认员工真正理解了上述问题及改进方案并承诺改变。</p>
+</blockquote>
+<blockquote>
+<p>第五步：检查和跟进改进效果</p>
+</blockquote>
+<p><a name="tYJTU"></a></p>
+<h2 id="第四篇：从管理走向领导"><a href="#第四篇：从管理走向领导" class="headerlink" title="第四篇：从管理走向领导"></a>第四篇：从管理走向领导</h2><blockquote>
+<p>“管理是通过对资源进行计划、组织、指挥、协调和控制，来实现某一预定的目标；而领导是指确定方向、设定目标、统一意志，引导和影响、调动和鼓舞下属为实现目标而积极行动和努力工作的过程</p>
+</blockquote>
+<p><strong>管理和领导的五大区别：</strong></p>
+<blockquote>
+<p>第一大区别，角色性质不同，领导务‘虚’，管理务‘实’；</p>
+</blockquote>
+<blockquote>
+<p>第二大区别，角色定位不同，领导定位于做正确的事情，管理定位于把事情做正确；</p>
+</blockquote>
+<blockquote>
+<p>第三大区别，角色职责不同，领导的主要职责是指明方向、统一意志、建立愿景、设定目标、整合资源、激励和鼓励，管理的主要职责则是带领团队实现领导者所设定的目标；</p>
+</blockquote>
+<blockquote>
+<p>第四大区别，角色侧重点不同，领导侧重于思考，管理侧重于贯彻执行；</p>
+</blockquote>
+<blockquote>
+<p>第五大区别，角色履职方式不同，领导者应该走在员工的前面做引路人和指路人，而管理者则需要和员工在一起战斗。”</p>
+</blockquote>
+<p><a name="c9e177a3"></a></p>
+<h3 id="102-领导力所包含的六个方面"><a href="#102-领导力所包含的六个方面" class="headerlink" title="102.领导力所包含的六个方面"></a>102.领导力所包含的六个方面</h3><blockquote>
+<p>领导力是指管理者在其所管辖的范围之内，充分地利用人力和各种客观条件，以最小的成本办成所需要办成的事情，从而提高整个团队办事效率的能力。</p>
+</blockquote>
+<p><strong>领导力主要包含六个方面：感召力、吸引力、影响力、前瞻力、决断力和控制力。</strong></p>
+<blockquote>
+<p>所谓感召力，也被称为“领袖气质”，是一种吸引他人追随和拥护的人格魅力</p>
+</blockquote>
+<blockquote>
+<p>所谓吸引力，是指能成为对方的偶像，让对方崇拜和模仿</p>
+</blockquote>
+<blockquote>
+<p>所谓影响力，是指一个管理者，通过他的言行举止，让别人接受他的观点、他的思想和他的方案的能力。</p>
+</blockquote>
+<blockquote>
+<p>所谓前瞻力，通常把它称为“眼光”，是一个管理者着眼未来、预测未来和把握未来的能力。</p>
+</blockquote>
+<blockquote>
+<p>所谓决断力，就是正确决策的能力。管理者在需要做出决定时，要能当机立断，不犹犹豫豫，不拖泥带水。</p>
+</blockquote>
+<blockquote>
+<p>所谓控制力，就是管理者的理性判断和行动，管理者既需要控制自己的思想和行动，也需要有效地控制组织或者团队的发展方向和战略实施过程</p>
+</blockquote>
+<p><a name="b8f40897"></a></p>
+<h3 id="103-领导力来源的五大基本要素"><a href="#103-领导力来源的五大基本要素" class="headerlink" title="103.领导力来源的五大基本要素"></a>103.领导力来源的五大基本要素</h3><p><img src="https://cdn.nlark.com/yuque/0/2022/png/1257641/1654357438807-4195ba79-40ac-45b9-a0c1-29446ff7320a.png#clientId=u0e6bb2b0-a685-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=293&id=u587bc4d3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1492&originWidth=1436&originalType=binary&ratio=1&rotation=0&showTitle=false&size=551512&status=done&style=none&taskId=u3f1ceabe-b3c9-4fa8-8e0a-0e78adec0bc&title=&width=281.9942932128906" alt="image.png"></p>
+<p><strong>管理者的领导力主要是由这五大基本要素决定的。</strong></p>
+<blockquote>
+<p>积极的心态：管理者是要引领和带领团队的，所以管理者的心态是非常重要的</p>
+</blockquote>
+<blockquote>
+<p>良好的人际关系：管理者是需要和人打交道的。</p>
+</blockquote>
+<blockquote>
+<p>洞察和阐述工作价值：管理者需要经常安排下属的工作，然而管理者不能仅仅把工作任务分派给下属，而是应该和下属说清楚，让他做这项工作，对公司、对组织、对团队及对他个人有什么意义和价值</p>
+</blockquote>
+<blockquote>
+<p>参与与担当：管理者不能把自己游离在团队之外，而是应该参与到团队中，和大家一起努力</p>
+</blockquote>
+<blockquote>
+<p>精力充沛：管理者的情绪会感染下属的情绪，管理者激情、高昂、精力充沛，下属也容易激情、高昂、精力充沛</p>
+</blockquote>
+<p><a name="77ffe238"></a></p>
+<h3 id="104-管理者领导力的修炼方法"><a href="#104-管理者领导力的修炼方法" class="headerlink" title="104.管理者领导力的修炼方法"></a>104.管理者领导力的修炼方法</h3><p><strong>管理者领导力提升的五种修炼方法，</strong></p>
+<blockquote>
+<p>第一种方法：亲自实践。实践出真知。在工作的过程中，管理者需要和团队成员一起策划和设计我们的工作目标，并激励和鼓励团队成员来实现我们所设定的目标，这就是亲自实践。</p>
+</blockquote>
+<blockquote>
+<p>第二种方法：阅读。管理者需要阅读一些领导力方面的书籍或文章，从中学习并付诸实践，内化为自己的领导力。</p>
+</blockquote>
+<blockquote>
+<p>第三种方法：参加课程培训或拓展训练。他山之石，可以攻玉</p>
+</blockquote>
+<blockquote>
+<p>第四种方法：写心得体会。通过写工作心得、学习心得，能更好地加深自己的体会和感悟，让自己成长得更快、更稳健。</p>
+</blockquote>
+<blockquote>
+<p>第五种方法：复盘和修正。经常进行工作复盘，通过复盘我们发现自己做得不好或需要改进的方面，在以后的工作中有意识地去改进，从而有利于补长自己的领导力短板，提升自己全方位的领导力</p>
+</blockquote>
+<p><a name="55a83b4b"></a></p>
+<h3 id="107-管理者对下属的领导力"><a href="#107-管理者对下属的领导力" class="headerlink" title="107.管理者对下属的领导力"></a>107.管理者对下属的领导力</h3><p><strong>管理者对下属的领导力主要体现在五个方面。</strong></p>
+<blockquote>
+<p>第一个方面：管理者应该为下属指明方向。方向是行动的航标，方向比努力更重要；做正确的事情，比正确地做事更重要</p>
+</blockquote>
+<blockquote>
+<p>第二个方面：管理者应该统一大家的意志。意志力就是生产力</p>
+</blockquote>
+<blockquote>
+<p>第三个方面：管理者应该整合资源。管理者通过资源整合、人岗匹配、因材施教进行最优化的部署和组合，从而带领团队创造1+1＞2的业绩。</p>
+</blockquote>
+<blockquote>
+<p>第四个方面：管理者应该影响下属。管理者通过自身的言行举止来影响下属，让下属乐意追随管理者，让下属认同团队确定的工作目标和工作方向并为之而不懈努力。</p>
+</blockquote>
+<blockquote>
+<p>第五个方面：管理者应该激励和鼓励下属。人要长期保持旺盛的工作激情往往是比较困难的，管理者需要采用合适的方法和措施，不断激发下属的工作热情。</p>
+</blockquote>
+<p><strong>管理者可以通过如下四种方法来修炼和提升对下属的领导力。</strong></p>
+<blockquote>
+<p>第一种方法：提升自身素养。管理者的自身素养既包括管理者的能力也包括管理者的品质，一个管理者如果能力强、品质好，就一定能潜移默化地影响下属。</p>
+</blockquote>
+<blockquote>
+<p>第二种方法：以身作则。要求下属做到的，管理者先带头做到，管理者自己不能游离在团队规则之外。因为，己身正，才能不令而行；身不正，虽令不从。</p>
+</blockquote>
+<blockquote>
+<p>第三种方法：严以律己，宽以待人。一个严以律己、宽以待人的管理者，一定会具有较强的人格魅力；而较强的人格魅力，是一种难能可贵的领导力。</p>
+</blockquote>
+<blockquote>
+<p>第四种方法：培养和教练下属。培养和教练属于第四层领导力的范畴。</p>
+</blockquote>
+<p><a name="9d5d64b0"></a></p>
+<h3 id="108-管理者对上司的领导力"><a href="#108-管理者对上司的领导力" class="headerlink" title="108.管理者对上司的领导力"></a>108.管理者对上司的领导力</h3><p>管理者对上司的领导力主要体现在两个方面。</p>
+<blockquote>
+<p>第一个方面：管理者能获得上司的认同和信任。</p>
+</blockquote>
+<blockquote>
+<p>第二个方面：上司会主动征求我们的意见和看法。在开展工作的过程中，如果上司遇到了问题或者困难，他们会主动征求我们的意见或建议，就表示我们在上司面前具有良好的领导力</p>
+</blockquote>
+<p><strong>管理者可以通过如下三种方法来修炼和提升对上司的领导力。</strong></p>
+<blockquote>
+<p>第一种方法：做好自己的本职工作。管理者做好自己的本职工作是获得上司认同和信任的前提</p>
+</blockquote>
+<blockquote>
+<p>第二种方法：学会从上司的角度出发考虑问题。角度不同，观点不同，做法自然不同。</p>
+</blockquote>
+<blockquote>
+<p>第三种方法：让上司“增值”。下属辅佐上司，让上司业绩得到提升；下属辅佐上司，让上司职位得到晋升</p>
+</blockquote>
+<p><a name="281d7f6f"></a></p>
+<h3 id="109-管理者对平级的领导力"><a href="#109-管理者对平级的领导力" class="headerlink" title="109.管理者对平级的领导力"></a>109.管理者对平级的领导力</h3><p>管理者对平级的领导力主要体现在三个方面。</p>
+<blockquote>
+<p>第一个方面：能获得平级的认同。</p>
+</blockquote>
+<blockquote>
+<p>第二个方面：能影响平级。管理者能够通过自己的言行举止去影响平级，让平级接受我们的思想、观点和方案</p>
+</blockquote>
+<blockquote>
+<p>第三个方面：能够在平级中成为“意见领袖”。大</p>
+</blockquote>
+<p><strong>管理者可以通过如下三种方法来修炼和提升对平级的领导力。</strong></p>
+<blockquote>
+<p>第一种方法：提升肚量。平级和平级之间不存在责任和义务的关系，别人帮我们是情分，别人不帮我们是本分</p>
+</blockquote>
+<blockquote>
+<p>第二种方法：累积情感账户。由于平级和平级之间是不存在责任和义务关系的，互帮互助和互相支持在很多时候都是出于彼此之间的情感，因此我们平时就需要多在对方心中累积情感账户，有能力帮助对方时就尽可能多去帮助对方</p>
+</blockquote>
+<blockquote>
+<p>第三种方法：成就他人。成就他人包括两个方面：一方面是协助平级创造了更好的业绩，另一方面是协助平级晋升了职位。</p>
+</blockquote>
+<p><a name="574661a3"></a></p>
+<h3 id="110-管理者对客户的领导力"><a href="#110-管理者对客户的领导力" class="headerlink" title="110.管理者对客户的领导力"></a>110.管理者对客户的领导力</h3><p><strong>管理者对客户的领导力主要体现在两个方面。</strong></p>
+<blockquote>
+<p>第一个方面：能影响客户。从专业领域这一角度来说，我们应该比客户更内行，在服务客户的过程中，通过与客户沟通说服客户，让客户欣赏并采纳我们的思想、观点和方案，</p>
+</blockquote>
+<blockquote>
+<p>第二个方面：能获得客户的认同和信任。</p>
+</blockquote>
+<p><strong>管理者可以通过如下三种方法来修炼和提升对客户的领导力。</strong></p>
+<blockquote>
+<p>第一种方法：做出效果。作为客户，他们更关心的不是我们的工作过程，而是我们的工作结果，</p>
+</blockquote>
+<blockquote>
+<p>第二种方法：急客户之所急。如果我们总是用心去解决客户所关心的或希望解决的问题，急客户之所急，时间一长，我们就能获得客户的认同和信任，从而提升我们对客户的领导力。第三种方法：换位思考，感同身受。客户有客户的立场、难处和利益诉求，多站在客户的角度来思考问题，多站在客户的角度来感受他们的需求，用将心比心的方式来思考和行动，这样更容易得到客户的认同和欣赏，从而提升我们对客户的领导力。</p>
+</blockquote>
+
+      
     </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2022/05/15/%E3%80%8Ajava8%E5%AE%9E%E6%88%98%E3%80%8B%E7%AC%94%E8%AE%B0%EF%BC%881-5%E7%AB%A0%EF%BC%89-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/05/15/%E3%80%8Ajava8%E5%AE%9E%E6%88%98%E3%80%8B%E7%AC%94%E8%AE%B0%EF%BC%881-5%E7%AB%A0%EF%BC%89-1/" class="post-title-link" itemprop="url">《java8实战》笔记（1-5章）</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-05-15 21:44:03 / Modified: 21:50:13" itemprop="dateCreated datePublished" datetime="2022-05-15T21:44:03+00:00">2022-05-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6/" itemprop="url" rel="index"><span itemprop="name">读过的书</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>4.2k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>15 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Java 8实战<br>Raoul</p>
+<h3 id="关于本书"><a href="#关于本书" class="headerlink" title="关于本书"></a>关于本书</h3><blockquote>
+<p>Java 8的流支持这种简明的数据库查询式编程——但用的是Java语法，而无需了解数据库！其次，流被设计成无需同时将所有的数据调入内存（甚至根本无需计算），这样就可以处理无法装入计算机内存的流数据了。</p>
+</blockquote>
+<blockquote>
+<p>Java 8可以对流做一些集合所不能的优化操作，例如，它可以将对同一个流的若干操作组合起来，从而只遍历一次数据，而不是花很大代价去多次遍历它。更妙的是，Java可以自动将流操作并行化（集合可不行）。</p>
+</blockquote>
+<h3 id="第1章-为什么要关心Java-8"><a href="#第1章-为什么要关心Java-8" class="headerlink" title="第1章 为什么要关心Java 8"></a>第1章 为什么要关心Java 8</h3><blockquote>
+<p>从有点修正主义的角度来看，在Java 8中加入Streams可以看作把另外两项扩充加入Java 8的直接原因：把代码传递给方法的简洁方式（方法引用、Lambda）和接口中的默认方法。</p>
+</blockquote>
+<blockquote>
+<p>Java 8可以透明地把输入的不相关部分拿到几个CPU内核上去分别执行你的Stream操作流水线，但是写代码时不能访问共享的可变数据，即需要保证在多线程操作时，数据是线程安全的</p>
+</blockquote>
+<blockquote>
+<p>在多个处理器内核之间使用synchronized，其代价往往比你预期的要大得多，因为同步迫使代码按照顺序执行，而这与并行处理的宗旨相悖</p>
+</blockquote>
+<blockquote>
+<p><strong>编程语言的整个目的就在于操作值</strong>，要是按照历史上编程语言的传统，这些值因此被称为一等值（或一等公民，这个术语是从20世纪60年代美国民权运动中借用来的）。</p>
+</blockquote>
+<blockquote>
+<p>编程语言中的其他结构也许有助于我们表示值的结构，但在程序执行期间不能传递，因而是二等公民。前面所说的值是Java中的一等公民，但其他很多Java概念（如方法和类等）则是二等公民。用方法来定义类很不错，因此，Java 8的设计者决定允许方法作为值，让编程更轻松。</p>
+</blockquote>
+<blockquote>
+<p>在Java 8里写下File::isHidden的时候，你就创建了一个方法引用，</p>
+</blockquote>
+<blockquote>
+<p>我们说使用这些概念的程序为函数式编程风格，这句话的意思是“编写把函数作为一等值来传递的程序”。</p>
+</blockquote>
+<blockquote>
+<p>我们把这种数据迭代的方法称为外部迭代。相反，有了Stream API，你根本用不着操心循环的事情。数据处理完全是在库内部进行的。我们把这种思想叫作内部迭代。</p>
+</blockquote>
+<blockquote>
+<p>Collection主要是为了存储和访问数据，而Stream则主要用于描述对数据的计算。</p>
+</blockquote>
+<blockquote>
+<p><strong><em>Java中从函数式编程中引入的两个核心思想：将方法和Lambda作为一等值，以及在没有可变共享状态时，函数或方法可以有效、安全地并行执行。</em></strong></p>
+</blockquote>
+<h3 id="第2章-通过行为参数化传递代码"><a href="#第2章-通过行为参数化传递代码" class="headerlink" title="第2章 通过行为参数化传递代码"></a>第2章 通过行为参数化传递代码</h3><blockquote>
+<p>**<em>行为参数化</em>**是可以帮助你处理频繁变更的需求的一种软件开发模式</p>
+</blockquote>
+<blockquote>
+<p>行为参数化：让方法接受多种行为（或战略）作为参数，并在内部使用，来完成不同的行为。</p>
+</blockquote>
+<blockquote>
+<p>DRY（Don’t Repeat Yourself，不要重复自己）的软件工程原则。</p>
+</blockquote>
+<h3 id="第3章-Lambda表达式"><a href="#第3章-Lambda表达式" class="headerlink" title="第3章 Lambda表达式"></a>第3章 Lambda表达式</h3><blockquote>
+<p>可以把**<em>Lambda表达式</em>**理解为简洁地表示可传递的匿名函数的一种方式：它没有名称，但它有参数列表、函数主体、返回类型，可能还有一个可以抛出的异常列表。</p>
+</blockquote>
+<blockquote>
+<p>一言以蔽之，**<em>函数式接口就是只定义一个抽象方法的接口，</em>**哪怕有很多默认方法，只要接口只定义了一个抽象方法，它就仍然是一个函数式接口。</p>
+</blockquote>
+<blockquote>
+<p>Lambda表达式允许你直接以内联的形式为函数式接口的抽象方法提供实现，并把整个表达式作为函数式接口的实例（具体说来，是函数式接口一个具体实现的实例）。</p>
+</blockquote>
+<blockquote>
+<p>Lambda表达式可以被赋给一个变量，或传递给一个接受函数式接口作为参数的方法，当然这个Lambda表达式的签名要和函数式接口中抽象方法一样</p>
+</blockquote>
+<blockquote>
+<p>注意你使用了Java 7中的带资源的try语句，它已经简化了代码，因为你不需要显式地关闭资源了）</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">public String processFile()throws IOException&#123;</span><br><span class="line"></span><br><span class="line">  try(BufferReader br = new BufferReader(new File(&quot;text&quot;))&#123;</span><br><span class="line">    return br.readLine()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>java7 try-with-resources的实现方式，是使用了语法糖，需要关闭的资源的对象要实现AutoClose接口，在写在try语句块中，进行编译时就会在finally语句中调用close方法</p>
+<blockquote>
+<p>Lambda表达式允许你直接内联，为函数式接口的抽象方法提供实现，并且将整个表达式作为函数式接口的一个实例。</p>
+</blockquote>
+<blockquote>
+<p>函数式接口的抽象方法的签名称为函数描述符</p>
+</blockquote>
+<h4 id="java8-中的函数式接口"><a href="#java8-中的函数式接口" class="headerlink" title="java8 中的函数式接口"></a>java8 中的函数式接口</h4><h5 id="Predicate"><a href="#Predicate" class="headerlink" title="Predicate"></a>Predicate</h5><blockquote>
+<h4 id="java-util-function-Predicate接口定义了一个名叫test的抽象方法，它接受泛型T对象，并返回一个boolean。"><a href="#java-util-function-Predicate接口定义了一个名叫test的抽象方法，它接受泛型T对象，并返回一个boolean。" class="headerlink" title="java.util.function.Predicate接口定义了一个名叫test的抽象方法，它接受泛型T对象，并返回一个boolean。"></a>java.util.function.Predicate接口定义了一个名叫test的抽象方法，它接受泛型T对象，并返回一个boolean。</h4></blockquote>
+<h5 id="Consumer"><a href="#Consumer" class="headerlink" title="Consumer"></a>Consumer</h5><blockquote>
+<p>java.util.function.Consumer定义了一个名叫accept的抽象方法，它接受泛型T的对象，没有返回（void）。你如果需要访问类型T的对象，并对其执行某些操作，就可以使用这个方法</p>
+</blockquote>
+<h5 id="Function"><a href="#Function" class="headerlink" title="Function"></a>Function</h5><blockquote>
+<p>java.util.function.Function&lt;T, R&gt;接口定义了一个叫作apply的方法，它接受一个泛型T的对象，并返回一个泛型R的对象。如果你需要定义一个Lambda，将输入对象的信息映射到输出，就可以使用这个接口</p>
+</blockquote>
+<h5 id="Supplier"><a href="#Supplier" class="headerlink" title="Supplier"></a>Supplier</h5><blockquote>
+<p>java.util.function.Supplier<T>接口定义了一个get方法，它没有入参，只有一个返回泛型T的对象<br>  </p>
+</blockquote>
+<p>针对基础数据类型，为避免装箱带来的不必要的开销（如创建包装类消耗更多的内存），java提供了针对基础类型的函数式接口，如：IntPredicate,DoublePredicate,IntCousumer,IntFunction等</p>
+<blockquote>
+<p>任何函数式接口都不允许抛出受检异常（checked exception）。<strong>如果你需要Lambda表达式来抛出异常，有两种办法：定义一个自己的函数式接口，并声明受检异常，或者把Lambda包在一个try&#x2F;catch块中</strong>。</p>
+</blockquote>
+<blockquote>
+<p>Lambda的类型是从使用Lambda的上下文推断出来的。上下文（比如，接受它传递的方法的参数，或接受它的值的局部变量）中Lambda表达式需要的类型称为目标类型</p>
+</blockquote>
+<blockquote>
+<p>请注意，如果Lambda表达式抛出一个异常，那么抽象方法所声明的throws语句也必须与之匹配。</p>
+</blockquote>
+<blockquote>
+<p>如果一个Lambda的主体是一个语句表达式，它就和一个返回void的函数描述符兼容（当然需要参数列表也兼容）</p>
+</blockquote>
+<blockquote>
+<p>有时候显式写出类型更易读，有时候去掉它们更易读。没有什么法则说哪种更好；对于如何让代码更易读，程序员必须做出自己的选择</p>
+</blockquote>
+<blockquote>
+<p>Lambda表达式也允许使用<strong>自由变量（不是参数，而是在外层作用域中定义的变量）</strong>，就像匿名类一样。它们被称作捕获Lambda。<strong>Lambda可以没有限制地捕获（也就是在其主体中引用）实例变量和静态变量。但局部变量必须显式声明为final，或事实上是final</strong>。换句话说，Lambda表达式只能捕获指派给它们的局部变量一次。（注：捕获实例变量可以被看作捕获局部变量this)</p>
+</blockquote>
+<blockquote>
+<p><strong>为什么局部变量有这些限制</strong>。<br>第一，实例变量和局部变量背后的实现有一个关键不同。实例变量都存储在堆中，而局部变量则保存在栈上。如果Lambda可以直接访问局部变量，而且Lambda是在一个新线程中使用的，则使用Lambda的线程，可能会在分配该变量的线程将这个变量收回之后才去访问该变量。因此，Java在访问自由局部变量时，实际上是在访问它的副本，而不是访问原始变量。如果局部变量仅仅赋值一次那就没有什么区别了——因此就有了这个限制（指局部变量必须为final的限制）。<br>第二，这一限制不鼓励你使用改变外部变量的典型命令式编程模式（我们会在以后的各章中解释，这种模式会阻碍很容易做到的并行处理）</p>
+</blockquote>
+<blockquote>
+<p>你可以把方法引用看作针对仅仅涉及单一方法的Lambda的语法糖</p>
+</blockquote>
+<blockquote>
+<p>如何构建方法引用方法引用主要有三类。<br>(1) 指向静态方法的方法引用（例如Integer的parseInt方法，写作Integer::parseInt）。<br>(2) 指向任意类型实例方法的方法引用（例如String的length方法，写作String::length）。<br>(3) 指向现有对象的实例方法的方法引用（假设你有一个局部变量expensiveTransaction用于存放Transaction类型的对象，它支持实例方法getValue，那么你就可以写expensive-Transaction::getValue）。</p>
+</blockquote>
+<blockquote>
+<p>第二种方法引用的思想就是你在引用一个对象的方法，而这个对象本身是Lambda的一个参数。例如，Lambda表达式(String s)-&gt; s.toUppeCase()可以写作String::toUpperCase</p>
+</blockquote>
+<blockquote>
+<p>方法引用的签名必须和上下文类型匹配。</p>
+</blockquote>
+<blockquote>
+<p>对于一个现有构造函数，你可以利用它的名称和关键字new来创建它的一个引用：ClassName::new。</p>
+</blockquote>
+<blockquote>
+<p>函数式接口就是仅仅定义一个抽象方法的接口。抽象方法的签名（称为函数描述符）描述了Lambda表达式的签名。</p>
+</blockquote>
+<h4 id="复合Lambda表达式的用法"><a href="#复合Lambda表达式的用法" class="headerlink" title="复合Lambda表达式的用法"></a>复合Lambda表达式的用法</h4><h5 id="比较器复合"><a href="#比较器复合" class="headerlink" title="比较器复合"></a>比较器复合</h5><h6 id="逆序-reversed"><a href="#逆序-reversed" class="headerlink" title="逆序 reversed()"></a>逆序 reversed()</h6><h6 id="比较器链"><a href="#比较器链" class="headerlink" title="比较器链"></a>比较器链</h6><p>第一个条件比较完后可以调用thenComparing()继续比较</p>
+<h5 id="谓词复合（Predicate）"><a href="#谓词复合（Predicate）" class="headerlink" title="谓词复合（Predicate）"></a>谓词复合（Predicate）</h5><blockquote>
+<p>谓词接口包括三个方法：negate、and和or，让你可以重用已有的Predicate来创建更复杂的谓词。</p>
+</blockquote>
+<h5 id="复合函数-Function"><a href="#复合函数-Function" class="headerlink" title="复合函数(Function)"></a>复合函数(Function)</h5><blockquote>
+<p>Function接口为此配了andThen和compose两个默认方法，它们都会返回Function的一个实例<br>andThen方法会返回一个函数，它先对输入应用一个给定函数，再对输出应用另一个函数。f.andthen(g)类似于数学函数中g(f(x)) ,而compse方法则类似于f(g(x))即f.compose(g)与数学函数中f(g(x))相似</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Function&lt;String, String&gt; toUpperCase = String::toUpperCase; <span class="comment">// 使用方法引用获取到function对象</span></span><br><span class="line">Function&lt;String, String&gt; lowerCase = String::toLowerCase;</span><br><span class="line">toUpperCase.andThen(lowerCase);</span><br><span class="line"><span class="type">String</span> <span class="variable">test</span> <span class="operator">=</span> <span class="string">&quot;teest&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">apply</span> <span class="operator">=</span> toUpperCase.apply(test);</span><br><span class="line">System.out.println(apply);</span><br><span class="line"></span><br><span class="line">Function&lt;String, String&gt; compose = lowerCase.compose(toUpperCase);</span><br><span class="line"><span class="type">String</span> <span class="variable">apply1</span> <span class="operator">=</span> compose.apply(test);</span><br><span class="line"></span><br><span class="line">        System.out.println(apply1);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>只有在接受函数式接口的地方才可以使用Lambda表达式。</strong></p>
+</blockquote>
+<blockquote>
+<p>环绕执行模式（即在方法所必需的代码中间，你需要执行点儿什么操作，比如资源分配和清理）可以配合Lambda提高灵活性和可重用性。</p>
+</blockquote>
+<h3 id="第4章-引入流"><a href="#第4章-引入流" class="headerlink" title="第4章 引入流"></a>第4章 引入流</h3><blockquote>
+<p>流是Java API的新成员，它允许你以声明性方式处理数据集合（通过查询语句来表达，而不是临时编写一个实现）。</p>
+</blockquote>
+<blockquote>
+<p>因为filter、sorted、map和collect等操作是与具体线程模型无关的高层次构件，所以它们的内部实现可以是单线程的，也可能透明地充分利用你的多核架构</p>
+</blockquote>
+<blockquote>
+<p>Java 8中的Stream API可以让你写出这样的代码：<br>❑ 声明性——更简洁，更易读<br>❑ 可复合——更灵活<br>❑ 可并行——性能更好</p>
+</blockquote>
+<blockquote>
+<p>集合与流之间的差异就在于什么时候进行计算</p>
+</blockquote>
+<blockquote>
+<p>集合是一个内存中的数据结构，它包含数据结构中目前所有的值——集合中的每个元素都得先算出来才能添加到集合中</p>
+</blockquote>
+<blockquote>
+<p>相比之下，流则是在概念上固定的数据结构（你不能添加或删除元素），其元素则是按需计算的。</p>
+</blockquote>
+<blockquote>
+<p><strong>和迭代器类似，流只能遍历一次</strong>。遍历完之后，我们就说这个流已经被消费掉了。<strong><em>所以要记得，流只能消费一次！</em></strong></p>
+</blockquote>
+<blockquote>
+<p>集合和流的另一个关键区别在于它们遍历数据的方式</p>
+</blockquote>
+<blockquote>
+<p>使用Collection接口需要用户去做迭代（比如用for-each），这称为外部迭代。相反，Streams库使用内部迭代— 它帮你把迭代做了，还把得到的流值存在某个地方，你只要给出一个函数说要干什么即可</p>
+</blockquote>
+<blockquote>
+<p>Streams库的内部迭代可以自动选择一种适合你硬件的数据表示和并行实现</p>
+</blockquote>
+<p>Stream流中的操作可以分为两大类： </p>
+<blockquote>
+<p>❑ filter、map和limit可以连成一条流水线；<br>❑ collect触发流水线执行并关闭它。<br>可以连接起来的流操作称为中间操作，关闭流的操作称为终端操作。**除非流水线上触发一个终端操作，否则中间操作不会执行任何处理—流的延迟性，**这是因为中间操作一般都可以合并起来，在终端操作时一次性执行</p>
+</blockquote>
+<h4 id="中间操作"><a href="#中间操作" class="headerlink" title="中间操作"></a>中间操作</h4><blockquote>
+<h4 id="尽管filter和map是两个独立的操作，但它们合并到同一次遍历中了（我们把这种技术叫作循环合并）"><a href="#尽管filter和map是两个独立的操作，但它们合并到同一次遍历中了（我们把这种技术叫作循环合并）" class="headerlink" title="尽管filter和map是两个独立的操作，但它们合并到同一次遍历中了（我们把这种技术叫作循环合并）"></a>尽管filter和map是两个独立的操作，但它们合并到同一次遍历中了（我们把这种技术叫作循环合并）</h4></blockquote>
+<p>在既包含filter又包含map的流水线中，数据流中的元素会依次经过filter和map，即一次循环中元素既经过了filter也经过了map </p>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>操作参数</th>
+<th>函数描述</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>filter</td>
+<td>Predicate<T></td>
+<td>T-&gt;boolean</td>
+<td>接收一个Predicate对象，并返回符合该Predicate的流</td>
+</tr>
+<tr>
+<td>map</td>
+<td>Function&lt;T,R&gt;</td>
+<td>T-&gt;R</td>
+<td></td>
+</tr>
+<tr>
+<td>limit</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>sorted</td>
+<td>Comparator<T></td>
+<td>&lt;T,T&gt;-&gt;int</td>
+<td></td>
+</tr>
+<tr>
+<td>distinct</td>
+<td></td>
+<td></td>
+<td>返回一个由hashcode和equals判断各不相同的流</td>
+</tr>
+<tr>
+<td>skip</td>
+<td></td>
+<td></td>
+<td>跳过n个元素，如果元素个数不足n，则返回空流</td>
+</tr>
+<tr>
+<td>flatMap</td>
+<td></td>
+<td></td>
+<td>把一个流中的每个值都换成另一个流，然后把所有的流连接起来成为一个流</td>
+</tr>
+</tbody></table>
+<h4 id="终端操作"><a href="#终端操作" class="headerlink" title="终端操作"></a>终端操作</h4><blockquote>
+<p>终端操作会从流的流水线生成结果，其<strong>结果可以是任何不是流的值</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>操作</strong></th>
+<th>目的</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>foreach</strong></td>
+<td>消费流中的元素并对其执行lambd，返回void</td>
+</tr>
+<tr>
+<td>count</td>
+<td>返回流中元素的个数，这一操作返回long</td>
+</tr>
+<tr>
+<td>collect</td>
+<td>把流归约成一个集合，比如List，Map，甚至可以是Integer</td>
+</tr>
+</tbody></table>
+<h4 id="流的使用"><a href="#流的使用" class="headerlink" title="流的使用"></a>流的使用</h4><blockquote>
+<p>总而言之，流的使用一般包括三件事：<br>❑ 一个数据源（如集合）来执行一个查询；<br>❑ 一个中间操作链，形成一条流的流水线；<br>❑ 一个终端操作，执行流水线，并能生成结果。</p>
+</blockquote>
+<h3 id="第5章-使用流"><a href="#第5章-使用流" class="headerlink" title="第5章 使用流"></a>第5章 使用流</h3><blockquote>
+<p>使用flatMap方法的效果是，各个数组并不是分别映射成一个流，而是映射成统一的流中的内容。flatmap方法让你把一个流中的每个值都换成另一个流，然后把所有的流连接起来成为一个流</p>
+</blockquote>
+<blockquote>
+<p>另一个常见的数据处理套路是看看数据集中的某些元素是否匹配一个给定的属性。Stream API通过allMatch、anyMatch、noneMatch、findFirst和findAny方法提供了这样的工具。</p>
+</blockquote>
+<blockquote>
+<p>Java 8引入了三个原始类型特化流接口来解决这个问题：IntStream、DoubleStream和LongStream，分别将流中的元素特化为int、long和double，从而避免了暗含的装箱成本</p>
+</blockquote>
+<h4 id="构建流"><a href="#构建流" class="headerlink" title="构建流"></a>构建流</h4><blockquote>
+<ol>
+<li>你可以使用静态方法Stream.of，通过显式值创建一个流</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>你可以使用静态方法Arrays.stream从数组创建一个流。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li>API。java.nio.file.Files中的很多静态方法都会返回一个流。</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
+<li>Stream API提供了两个静态方法来从函数生成流：Stream.iterate和Stream.generate，这两个api可以用来创建无限流</li>
+</ol>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 输出偶数</span></span><br><span class="line"> Stream.iterate(<span class="number">0</span>,n-&gt; n+<span class="number">2</span>).limit(<span class="number">100</span>).forEach(System.out::println);</span><br><span class="line"> <span class="comment">// 输出斐波那契数列</span></span><br><span class="line"> Stream.iterate(<span class="keyword">new</span> <span class="title class_">int</span>[]&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,t -&gt; <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;t[<span class="number">1</span>],t[<span class="number">0</span>]+t[<span class="number">1</span>]&#125;).limit(<span class="number">10</span>).map(t-&gt; t[<span class="number">0</span>]).forEach(System.out::println);</span><br><span class="line">   </span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>但这里使用的匿名类和Lambda的区别在于，匿名类可以通过字段定义状态，而状态又可以用getAsInt方法来修改。这是一个副作用的例子。你迄今见过的所有Lambda都是没有副作用的；它们没有改变任何状态</p>
+</blockquote>
+<blockquote>
+<p>filter和map等操作是无状态的，它们并不存储任何状态。reduce等操作要存储状态才能计算出一个值。sorted和distinct等操作也要存储状态，因为它们需要把流中的所有元素缓存起来才能返回一个新的流。这种操作称为有状态操作。</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2022/04/23/%E3%80%8A%E4%BB%8E%E6%8A%80%E6%9C%AF%E8%B5%B0%E5%90%91%E7%AE%A1%E7%90%86%EF%BC%9A%E6%9D%8E%E5%85%83%E8%8A%B3%E5%8D%87%E8%81%8C%E8%AE%B0%E3%80%8B%E6%91%98%E5%BD%95-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/04/23/%E3%80%8A%E4%BB%8E%E6%8A%80%E6%9C%AF%E8%B5%B0%E5%90%91%E7%AE%A1%E7%90%86%EF%BC%9A%E6%9D%8E%E5%85%83%E8%8A%B3%E5%8D%87%E8%81%8C%E8%AE%B0%E3%80%8B%E6%91%98%E5%BD%95-1/" class="post-title-link" itemprop="url">《从技术走向管理：李元芳升职记》摘录</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-04-23 21:35:18 / Modified: 21:50:15" itemprop="dateCreated datePublished" datetime="2022-04-23T21:35:18+00:00">2022-04-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6/" itemprop="url" rel="index"><span itemprop="name">读过的书</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>2.3k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>8 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>世界读书日，安安静静的看点书，做了一些摘录，分享给大家</p>
+</blockquote>
+<h3 id="003-让计划成为习惯"><a href="#003-让计划成为习惯" class="headerlink" title="003.让计划成为习惯"></a>003.让计划成为习惯</h3><blockquote>
+<p>因此，计划的作用在于：（1）给未来的行动提供指导；（2）通过做计划这一过程中的缜密思考，对未来可能出现的情况有所准备。</p>
+</blockquote>
+<h3 id="005-技术人才当管理者最重要的是什么"><a href="#005-技术人才当管理者最重要的是什么" class="headerlink" title="005.技术人才当管理者最重要的是什么"></a>005.技术人才当管理者最重要的是什么</h3><blockquote>
+<p>管理，是指同别人一起，或通过别人使活动完成得更有效的过程。管理者通过对资源进行计划、组织、指挥、协调和控制来实现预定的目标。</p>
+</blockquote>
+<blockquote>
+<p>技术人才当好管理者最重要的应该是思维习惯和行为习惯的改变，要从技术人员的思维习惯和行为习惯调整为管理人员所需要的</p>
+</blockquote>
+<blockquote>
+<p>思维习惯和行为习惯</p>
+</blockquote>
+<h3 id="007-用目标导向行为"><a href="#007-用目标导向行为" class="headerlink" title="007.用目标导向行为"></a>007.用目标导向行为</h3><blockquote>
+<p>作为职场人士，特别是管理人员，不能别人分派什么就着急去做什么，而是应该先弄清楚要做到什么程度，也就是弄清楚这件事情的目标。明确目标之后，再从目标本身出发，确定适当的行动，这样制订出来的行动方案就会更加实用和高效，更能取得原本想取得的工作结果</p>
+</blockquote>
+<h3 id="023-1加1可能大于2"><a href="#023-1加1可能大于2" class="headerlink" title="023.1加1可能大于2"></a>023.1加1可能大于2</h3><blockquote>
+<p>如果一个工作团队不能实现‘1加1大于2’，那么这个团队的价值就有限，就不能充分体现出‘抱团战斗’的真正意义</p>
+</blockquote>
+<h3 id="030-谁的“猴子”谁负责抚养"><a href="#030-谁的“猴子”谁负责抚养" class="headerlink" title="030.谁的“猴子”谁负责抚养"></a>030.谁的“猴子”谁负责抚养</h3><blockquote>
+<p>如果下次别人想把他背上的‘猴子’给你，你就说‘我也不知道，你再去想想其他解决方案吧！’。”</p>
+</blockquote>
+<h3 id="032-让“我能”引发蝴蝶效应"><a href="#032-让“我能”引发蝴蝶效应" class="headerlink" title="032.让“我能”引发蝴蝶效应"></a>032.让“我能”引发蝴蝶效应</h3><blockquote>
+<p>我认为实现管理者能力价值最大化有两个途径：第一，培养更多优秀的下属；第二，打造协同配合的合作型团队。”</p>
+</blockquote>
+<h3 id="033-信任真的很重要"><a href="#033-信任真的很重要" class="headerlink" title="033.信任真的很重要"></a>033.信任真的很重要</h3><blockquote>
+<p>影响企业发展壮大的最大内耗是什么？”李元芳说：“我想应该是企业员工之间的互相猜忌和怀疑，还有互不信任、互相提防</p>
+</blockquote>
+<blockquote>
+<p>第二个层面就是，管理者应该在团队中营造互相信任的氛围。也就是说，不但要让上下级之间互相信任、讲诚信，同级之间也应该互相信任、讲诚信，从而形成一个互相信任和讲诚信的大家庭</p>
+</blockquote>
+<h3 id="034-情感账户：多“存款”，少“取款”"><a href="#034-情感账户：多“存款”，少“取款”" class="headerlink" title="034.情感账户：多“存款”，少“取款”"></a>034.情感账户：多“存款”，少“取款”</h3><blockquote>
+<p>如何在团队中建立信任’的问题吧</p>
+</blockquote>
+<blockquote>
+<p>我们该如何更好地信任下属呢？”</p>
+</blockquote>
+<h3 id="035-坚持“用人不疑”"><a href="#035-坚持“用人不疑”" class="headerlink" title="035.坚持“用人不疑”"></a>035.坚持“用人不疑”</h3><blockquote>
+<p>上司不怀疑我们的人品和能力，充分放手让我们去干。”</p>
+</blockquote>
+<blockquote>
+<p>如果我们认为这个人本身就是‘疑人’，就尽量不要让他入职；如果已经是部门员工，就给他一两次机会去验证和改进，如果验证发现他真的是‘疑人’，特别是人品方面的‘疑人’，又很难培养和改进，就不妨将他请出团队</p>
+</blockquote>
+<blockquote>
+<p>在情感账户上多‘存款’少‘取款’，让下属信任我们；在工作中坚持‘用人不疑’，让下属体会到我们的信任。这种良性的上下级互动，团队想建设不好都难啊</p>
+</blockquote>
+<h3 id="036-建立团队的共同价值观、共同利益和共同目标"><a href="#036-建立团队的共同价值观、共同利益和共同目标" class="headerlink" title="036.建立团队的共同价值观、共同利益和共同目标"></a>036.建立团队的共同价值观、共同利益和共同目标</h3><blockquote>
+<p>但要建设好一个团队，光有上下级之间的信任是不够的。”李元芳插话道：“您是说还需要团队成员之间的信任，对吗</p>
+</blockquote>
+<blockquote>
+<p>就是要建立团队的共同价值观、共同利益和共同目标！</p>
+</blockquote>
+<blockquote>
+<p>团队是为共同价值而战，团伙是为各自利益而争</p>
+</blockquote>
+<blockquote>
+<p>如何建立团队的共同价值观、共同利益和共同目标</p>
+</blockquote>
+<blockquote>
+<p>方法其实比较简单，那就是让团队成员集体参与，建立团队的共同价值观、共同利益和共同目标。</p>
+</blockquote>
+<h3 id="037-信任不等于撒手不管"><a href="#037-信任不等于撒手不管" class="headerlink" title="037.信任不等于撒手不管"></a>037.信任不等于撒手不管</h3><blockquote>
+<p>所说的‘监督和控制下属’，不是指‘监督’和‘控制’下属这个人，而是指‘监督’和‘控制’下属的工作进程和工作质量。‘监督’和‘控制’下属的工作进程和工作质量至少有这样几个好处：第一，及时了解下属的水平，判断他们是否能胜任该项工作，如果发现下属的能力与工作要求之间存在差异，可以根据差异的大小及时进行培训和辅导，甚至是换其他人来做；第二，及时发现下属的实际工作在进度和质量上与原计划的差异，并根据需要采取适当的纠偏和纠正措施；第三，通过监督工作收集相关数据，为下一步的决策提供依据；第四，通过监督了解实际情况，避免‘瞎指挥’。”</p>
+</blockquote>
+<h3 id="039-沟通应该这样进行"><a href="#039-沟通应该这样进行" class="headerlink" title="039.沟通应该这样进行"></a>039.沟通应该这样进行</h3><blockquote>
+<p>事先没有确定好要达成的沟通目标，沟通方式比较单一，没有和张帆确认最后的沟通结论</p>
+</blockquote>
+<blockquote>
+<p>沟通’应该是为了一个设定的目标，把信息、思想和情感在个人或群体间传递并达成共同协议的过程。因此，沟通有三大要素：第一，沟通之前应该有明确的目标，也就是与对方沟通什么、期望的结果如何；第二，要让沟通各方达成一致的结论，这个结论应该是大家都认可且可以执行的；第三，在沟通过程中，既需要借助语言传递信息，也需要借助非语言传递思想和情感。</p>
+</blockquote>
+<blockquote>
+<p>基本问题‘心态’是指我们和别人沟通时一定要有良好的心态，因为在沟通过程中双方有分歧、有不同的利益诉求是非常正常的，不要一看到对方的观点与自己的观点不符就立刻反驳。基本原理‘关心’是指我们与别人沟通，特别是与下属沟通时，一定要从关心他们、有利于他们、帮助他们成长的角度出发，不要把和他人——特别是和下属——的沟通当作一项任务去完成。基本要求‘主动’是指不要等待别人来找自己沟通，而是应该主动‘走出去’和对方沟通。”</p>
+</blockquote>
+<h3 id="040-保持信息的一致性"><a href="#040-保持信息的一致性" class="headerlink" title="040.保持信息的一致性"></a>040.保持信息的一致性</h3><blockquote>
+<p>如下六个技巧开启沟通：第一，从对方感兴趣的话题入手；第二，从认同对方的观点入手；第三，从理解对方的立场入手；第四，从关心对方的角度入手；第五，从同情对方的处境入手；第六，从真诚赞美对方入手</p>
+</blockquote>
+<blockquote>
+<p>在对上和对下的沟通过程中，有一个非常重要的原则，那就是要注意保持信息的一致性</p>
+</blockquote>
+<h3 id="042-话说三遍淡如水"><a href="#042-话说三遍淡如水" class="headerlink" title="042.话说三遍淡如水"></a>042.话说三遍淡如水</h3><blockquote>
+<p>话说三遍淡如水’，说得越多，员工会越不在乎。</p>
+</blockquote>
+<blockquote>
+<p>你要先了解他们真正在意的东西和内心深处的追求，诸如人格的独立、人生理想、价值和自我实现等，然后从这些层面去激发他们的工作热情。一旦发现他们开始改变，就不要再唠叨了，这时就要多表扬他们、鼓励他们。</p>
+</blockquote>
+<blockquote>
+<p>如果发现同一件事情和对方说了三次仍然没有效果，就应该反思自己的沟通方式并进行调整了。”</p>
+</blockquote>
+<h3 id="043-因人而异的沟通原则和沟通要领"><a href="#043-因人而异的沟通原则和沟通要领" class="headerlink" title="043.因人而异的沟通原则和沟通要领"></a>043.因人而异的沟通原则和沟通要领</h3><blockquote>
+<p>与上司沟通的原则：（1）以把事情做好为出发点和上级沟通。（2）把注意力放在积极寻找问题的解决方案上。</p>
+</blockquote>
+<blockquote>
+<p>与上司沟通的要领：（1）站在上级的角度进行思考。（2）不要抱怨。（3）多提方案，少提困难。（4）积极聆听。</p>
+</blockquote>
+<blockquote>
+<p>与下属沟通的原则：（1）从关心下属的角度出发。（2）沟通的目的是协助下属解决遇到的问题和帮助他们成长。（3）就事论事，不要翻旧账。</p>
+</blockquote>
+<blockquote>
+<p>与下属沟通的要领：（1）采用适合下属的语言。（2）尊重下属的人格。（3）换位思考 4）多聆听。</p>
+</blockquote>
+<blockquote>
+<p>与平级沟通的原则：（1）用宽大的胸怀和平级沟通。（2）助人就是助己。</p>
+</blockquote>
+<blockquote>
+<p>与平级沟通的要领：（1）用感恩的心态对待平级给自己的帮助、建议或批评。（2）体谅他人的难处。（3）平时多建立“情感账户”。</p>
+</blockquote>
+<blockquote>
+<p>与外部客户（或其他合作单位）沟通的原则：（1）双赢思维，合作共赢。（2）站在对方的角度看问题。</p>
+</blockquote>
+<blockquote>
+<p>与外部客户（或其他合作单位）沟通的要领：（1）避免将自己的观点强加于对方。（2）用“我们”的心态来解决合作过程中遇到的问题。（3）因势利导，尽量不要触碰底线（底线：可以有利于自己，但绝对不要伤害对方）</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2022/03/26/%E8%A7%A3%E9%99%A4%E9%9A%94%E7%A6%BB-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/03/26/%E8%A7%A3%E9%99%A4%E9%9A%94%E7%A6%BB-1/" class="post-title-link" itemprop="url">解除隔离</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-03-26 17:22:23 / Modified: 17:23:56" itemprop="dateCreated datePublished" datetime="2022-03-26T17:22:23+00:00">2022-03-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9D%82%E8%B0%88/" itemprop="url" rel="index"><span itemprop="name">杂谈</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>630</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>2022年3月初，又一波新冠疫情袭击北京，不幸成了密接，不幸中的万幸没有中招，即将结束隔离，记录一下这不常有的经历</p>
+</blockquote>
+<h1 id="隔离"><a href="#隔离" class="headerlink" title="隔离"></a>隔离</h1><p>3月8日一早便接到公司通知，不要到公司上班，居家等待疾控中心通知，把自己关到单独的房间与家人分开，下午社区进行入户的核酸检测，到晚上接到接到疾控中心电话，需要拉到酒店集中隔离。接到电话经过了漫长的等待，9号下午等到了司机电话，经过两小时的跋涉达到酒店，期间遇到限高，绕路两次🐶，到达酒店，前面已经有两个大巴在排队，排队办理入住，终于在新的一天开始的时候走入房间。住宿条件很好，温泉酒店，还有个泡温泉的大池子</p>
+<h1 id="几件小事"><a href="#几件小事" class="headerlink" title="几件小事"></a>几件小事</h1><ol>
+<li>第一次自己动手理了板寸，不逼自己一把永远不知道自己有啥潜力。虽然不怎么好看，但不用顶着长长的头发难受了。</li>
+<li>关小黑屋真的是对犯人最残忍的惩罚。隔离一周左右的时候便开始听到有人在哐哐哐的砸窗户。心里觉得焦躁不安。隔壁的小姑娘，做核酸的时候已经崩溃大哭了，受不了了 ，不想再做核酸，大白像哄孩子一样哄了十几分钟，“坚持下马上就结束了，坚持下做完这次就可以回家了”，当然作为一个程序员这些都是可以战胜的，找个需求，就当封闭开发了（请老板加工资）。</li>
+<li>一个人的时候很难管住自己，没人看着的时候自己会做什么？，打开短视频时间消耗的会很快，关掉手机就会是满满的空虚，带的书没看几页。所以有点自己的爱好，只需要一个人的爱好真十分必要，打发时间，还陶冶情操，也不会去砸窗户了</li>
+<li>自由自在的行走，像呼吸一样必要。当真正有限制，不能自由走动了，那种不适感，真的令人崩溃。</li>
+<li>最重要的还是保证健康的身体。</li>
+<li>开始隔离的时候还是料峭春寒，期间还下了场大雪，结束时已是柳叶新绿。原新的开始，带来新的气象</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2022/02/08/MySQL-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/02/08/MySQL-1/" class="post-title-link" itemprop="url">MySQL</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-02-08 15:50:43 / Modified: 16:15:50" itemprop="dateCreated datePublished" datetime="2022-02-08T15:50:43+00:00">2022-02-08</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>2k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>7 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <ol>
+<li>索引的实现形式</li>
+<li>B-Tree索引，Hash索引，全文索引，单值索引、唯一索引、复合索引、聚簇索引、非聚簇索引等等，以及它们各自的特点</li>
+<li>常见的优化手段，编码时有哪些要注意的<ol>
+<li>不要用select * </li>
+<li>索引，最左原则，最好用覆盖索引</li>
+<li>建表是注意字段长度，各系统对齐，不浪费字段，不常用的字段及大字段可以考虑单独建一张表（可以减少磁盘IO）</li>
+<li>不要多张表join</li>
+<li>不使用UUID作为主键</li>
+</ol>
+</li>
+<li>B树与B+树的区别，与跳表的区别</li>
+<li>B+树是怎么保持平衡的</li>
+<li>MyISAM与Innodb的区别<ol>
+<li>事务 MyISAM不支持事务</li>
+<li>锁  MyISAM只支持表锁，InnoDB支持行锁</li>
+<li><img src="http://imghub.full-stacker.com/qijunImgs/TOIMG926480219093720N.png" alt="image"></li>
+</ol>
+</li>
+<li>MVCC实现原理</li>
+<li>表中只有(id &#x3D;1 ,a&#x3D;0)一条数据，下述操作结果是怎么样的</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>时刻</th>
+<th>Session A</th>
+<th>Session B</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>时刻1</td>
+<td>begin </br>select a from test where id &#x3D; 1;</td>
+<td></td>
+</tr>
+<tr>
+<td>时刻2</td>
+<td>update test set a &#x3D; a+1 where id &#x3D; 1</br>(此时这条数据加了行锁，sessionB无法更改，只有sessionA commit后才其他事务才可以修改)</td>
+<td></td>
+</tr>
+<tr>
+<td>时刻3</td>
+<td></td>
+<td>select a from test where id &#x3D; 1;</td>
+</tr>
+<tr>
+<td>时刻4</td>
+<td></td>
+<td>update test set a &#x3D; a+1 where id &#x3D; 1</td>
+</tr>
+<tr>
+<td>时刻5</td>
+<td>select a from test where id &#x3D; 1;</td>
+<td></td>
+</tr>
+<tr>
+<td>时刻6</td>
+<td>commit;</td>
+<td></td>
+</tr>
+<tr>
+<td>时刻7</td>
+<td>select a from test where id &#x3D; 1;</td>
+<td></td>
+</tr>
+</tbody></table>
+<ol start="8">
+<li><p>常见的分库的方法</p>
+<ol>
+<li>range方法，根据时间段分库<ol>
+<li>京东接单框架的数据每天分一个表</li>
+</ol>
+</li>
+<li>hash方法，根据业务字段进行hash</li>
+<li></li>
+</ol>
+</li>
+<li><p>mysql主从同步是怎么实现的，主从延迟怎么解决</p>
+<ol>
+<li>优化网络</li>
+<li>升级Slave硬件配置</li>
+<li>Slave调整参数，关闭binlog，修改innodb_flush_log_at_trx_commit参数值</li>
+<li>升级MySQL版本到5.7，使用并行复制</li>
+</ol>
+</li>
+<li><p>数据库扩容，怎么迁移数据，迁移数据的注意事项。数据迁移中产生的脏数据怎么里。怎么校验数据的迁移结果</p>
+</li>
+<li><p>什么场景考虑分库分表，分库分表的缺点</p>
+</li>
+<li><p>MySQL的事务隔离级别</p>
+</li>
+<li><p>MySQL如何解决幻读问题，间隙锁是怎么加的，什么时间加的</p>
+</li>
+<li><p>索引不适用的条件<br>索引列上有函数，不满足最左前缀，使用了不等号，使用了范围查询，值类型不匹配等等<br>索引的分类</p>
+</li>
+<li><p>为什么mysql使用b+树而不是红黑树或者hashmap或者跳表</p>
+<ol>
+<li>不使用红黑树是因为：<ol>
+<li>在增删改查的过程中，时间复杂度为log2n，而b+是logmN，体现在内存和磁盘的IO上，代价比较大。</li>
+<li>特别是插入的时候，红黑树需要进行节点颜色调整，对于频繁的插入而言，这是一个耗时的过程，而b+树仅仅是页分裂问题。另外从并发交付来说，要么线程不安全，要么加锁虽然线程安全，但是牺牲了效率。</li>
+<li>区间查找而言，b+树的叶子节点带有双向链表，因此比较方便。对于红黑树而言，虽然可以实现，比如通过中序遍历的方式，但是实现起来比较复杂。</li>
+</ol>
+</li>
+<li>不使用hashmap是因为<ol>
+<li>假设瓶颈不在hash数组上（hashmap由数组加链表构成），一方面，对于庞大数据量的链表来说，查找的时间复杂度为O（n）</li>
+<li>另一方面从磁盘IO性能考虑，链表足够长，频繁的io会导致极差的性能</li>
+<li>没有办法进行范围查找</li>
+</ol>
+</li>
+<li>不使用跳表是因为<ol>
+<li>虽然在区间查找上两者不相上下，如果纯粹基于内存工作，那就是redis。两者的主要区别，那就是一个是关系型，另一个是非关系型，redis是基于某个key进行排序构造的，如果像mysql哪样建立二级索引，那么每一个都是“聚簇索引”，得不偿失，维护也麻烦（就是说跳表无法解决索引问题）</li>
+<li>还是数据关系型的问题，虽然说跳表这个结构也可以以Json格式来存储数据库的行数据，但是类似主外键关系、模糊查找等功能，无法提供或者提供起来较为繁琐</li>
+<li>如果考虑到足够大的数据，大到需要使用硬盘的话，内存和磁盘进行io的内容会是什么？是跳表的每一层数据，前几层可能还好，越往下，可能不是一次页交换可以容纳下的，那么跳表在查找上的优势尽失，反观mysql，每次交换出来的非叶子节点都是索引，可查找范围大，io次数少，性能高</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>为什么redis使用跳表而不是红黑树或者hashmap<br>1. 由上面分析可知，红黑树在内存工作效率更高，但是同样基于内存的redis为什么不用红黑树，区别在于红黑树范围查询太费劲，插入元素时进行的节点颜色调整太费解，同样的操作，跳表仅仅需要更新前后下三个指针即可，而且，红黑树这样做来保持平衡带来的查找优势对跳表来说并不明显<br>2. 不使用hashmap，也是因为链表的操作太费时，远不如跳表这种链表的折半查找来的快</p>
+</li>
+<li><p>读写分离</p>
+<ol>
+<li>为什么要读写分离<ol>
+<li>扩展读能力</li>
+</ol>
+</li>
+<li>怎么读写分离<br> MySQL原生支持主从复制，主库写数据，写binlog，从库同步主库的数据，向外提供读服务</li>
+</ol>
+</li>
+<li><p>MySQL主从复制的原理<br>IO线程读binlog日志（记录了增删改操作），写入从库的relaylog中，从库的SQL线程，见relaylog 写入数据，从库读取binlog 写relay log ，写数据都是串行的</p>
+</li>
+<li><p>主从延迟相关</p>
+<ol>
+<li>主库的并发越高，延迟就越大</li>
+<li>semi-sync 半同步复制   从库写到relay log即返回成功</li>
+<li>主从延迟的解决方式：<ol>
+<li>将主库拆分，减少并发，减少延迟</li>
+<li>打开并行复制（并行复制什么？）</li>
+<li>代码层面的处理： 如 写后直接更新，而不要 “写”–&gt; “查”–&gt; “更新”</li>
+<li>如果确实存在写后立即查询的场景，可以强制查“主库”，但这样就失去了读写的分离的意义，不推荐</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>分库分表中间件</p>
+<ol>
+<li>proxy方式的中间件 （有维护成本）<ol>
+<li>cobar</li>
+<li>atlas(360公司开源)</li>
+<li>mycat</li>
+</ol>
+</li>
+<li>client方式的中间件<ol>
+<li>TDDL</li>
+<li>sharding-jdbc (支持分布式事务)</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>分库分表的方式</p>
+<ol>
+<li>range方式， 按时间来分<ol>
+<li>优点</li>
+<li>缺点</li>
+</ol>
+</li>
+<li>hash方式： 选定一个键，进行hash<ol>
+<li>优点</li>
+<li>缺点</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>分库分表数据迁移</p>
+<ol>
+<li>停机迁移</li>
+<li>不停机迁移：<ol>
+<li>双写： 既写老库也写新库</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>数据库动态扩容 </p>
+<ol>
+<li>数据库中间件</li>
+<li>停机扩容：<ol>
+<li>从单库单表迁移到多库多表时经常使用</li>
+</ol>
+</li>
+<li>不停机扩容<ol>
+<li>初始设计时就设计大一点，如 32个库，每个库32张表，只扩数据库服务器，不扩表，可以减少代码修改<br>  路由规则： id%32&#x3D;库  (id&#x2F;32)%32&#x3D;表</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>分布式id怎么生成</p>
+<ol>
+<li>向全局数据库中生成id（支持的并发低但数据多）</li>
+<li>UUID</li>
+<li>获取当前时间，并发高时容易出问题–&gt;改进 时间戳+用户ID+业务含义编码</li>
+<li>雪花算法： 64位 long型ID–》二进制（0|时间戳|机房|机器ID）</li>
+<li>利用redis自增 （jd使用）</li>
+</ol>
+</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2022/01/28/JVM%E9%9D%A2%E8%AF%95%E9%A2%98-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/01/28/JVM%E9%9D%A2%E8%AF%95%E9%A2%98-1/" class="post-title-link" itemprop="url">JVM面试题</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-01-28 16:09:40" itemprop="dateCreated datePublished" datetime="2022-01-28T16:09:40+00:00">2022-01-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2022-02-08 16:12:40" itemprop="dateModified" datetime="2022-02-08T16:12:40+00:00">2022-02-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">编程</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>731</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>3 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <ol>
+<li>类加载机制<ol>
+<li>双亲委派机制</li>
+<li></li>
+</ol>
+</li>
+<li>类加载的过程</li>
+<li>常见的垃圾回收算法及各自的问题</li>
+<li>常见的垃圾回收器及常见的组合</li>
+<li>讲一下JVM堆内存管理<br> 栈上分配-&gt;TLAB-&gt;新声代、老年代-&gt;可达性分析-&gt;GC算法-&gt;所有垃圾回收器及其优缺点和特点</li>
+<li>那到底多大的对象会被直接扔到老年代</li>
+<li>G1两个region不是连续的，而且之间还有可达的引用，我现在要回收其中一个，另一个会被怎么处理</li>
+<li>听说过CMS的并发预处理和并发可中断预处理吗</li>
+<li>引起GC的常见场景<ol>
+<li>扩容缩容会触发 CMS GC 之外，还有 Old 区达到回收阈值、MetaSpace 空间不足、Young 区晋升失败、大对象担保失败等几种触发条件</li>
+<li>动态扩容造成的GC<ol>
+<li>服务刚启动时，最大空间剩余很多但依然频繁GC</li>
+<li>原因：<ol>
+<li>-Xms与-Xmx 设置不一致造成，在初始化时只会初始 -Xms 大小的空间存储信息，每当空间不够用时再向操作系统申请，这样的话必然要进行一次 GC，另外，如果空间剩余很多时也会进行缩容操作</li>
+</ol>
+</li>
+<li>解决：<ol>
+<li>尽量将成对出现的空间大小配置参数设置成固定的，如 -Xms 和 -Xmx，-XX:MaxNewSize 和 -XX:NewSize，-XX:MetaSpaceSize 和 -XX:MaxMetaSpaceSize 等</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>System.gc() 会引发一次 STW 的 Full GC，对整个堆做收集</li>
+<li>MetaSpace 区 OOM</li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+</li>
+<li>MetaSpace 主要由 Klass Metaspace 和 NoKlass Metaspace 两大部分组成。<ol>
+<li>Klass MetaSpace： 就是用来存 Klass 的，就是 Class 文件在 JVM 里的运行时数据结构，这部分默认放在 Compressed Class Pointer Space 中，是一块连续的内存区域，紧接着 Heap。Compressed Class Pointer Space 不是必须有的，如果设置了 -XX:-UseCompressedClassPointers，或者 -Xmx 设置大于 32 G，就不会有这块内存，这种情况下 Klass 都会存在 NoKlass Metaspace 里。</li>
+<li>NoKlass MetaSpace： 专门来存 Klass 相关的其他的内容，比如 Method，ConstantPool 等，可以由多块不连续的内存组成。虽然叫做 NoKlass Metaspace，但是也其实可以存 Klass 的内容，上面已经提到了对应场景</li>
+</ol>
+</li>
+<li>什么时候需要自定义类加载器<ol>
+<li>要做资源隔离： 在某些框架内进行中间件与应用模块的隔离，如tomcat的类加载</li>
+<li>要修改类加载方式：双亲委派模型并非强制，除Bootstrap外，其他的加载并非一定要引入</li>
+<li>要扩展类的加载源：例如从数据库，网络中加载类</li>
+<li>防止源码泄漏： 对编译进行加密后，自定义类加载器还原字节码</li>
+</ol>
+</li>
+<li>如何自定义类加载器<ol>
+<li>继承ClassLoader类</li>
+<li>重写findClass()方法</li>
+</ol>
+</li>
+<li></li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2022/01/28/Hello%20Halo-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/01/28/Hello%20Halo-1/" class="post-title-link" itemprop="url">Hello Halo</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-01-28 15:45:26" itemprop="dateCreated datePublished" datetime="2022-01-28T15:45:26+00:00">2022-01-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/" itemprop="url" rel="index"><span itemprop="name">未分类</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>131</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="Hello-Halo"><a href="#Hello-Halo" class="headerlink" title="Hello Halo"></a>Hello Halo</h2><p>如果你看到了这一篇文章，那么证明你已经安装成功了，感谢使用 <a href="https://halo.run/">Halo</a> 进行创作，希望能够使用愉快。</p>
+<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul>
+<li>官网：<a href="https://halo.run/">https://halo.run</a></li>
+<li>文档：<a href="https://docs.halo.run/">https://docs.halo.run</a></li>
+<li>社区：<a href="https://bbs.halo.run/">https://bbs.halo.run</a></li>
+<li>主题仓库：<a href="https://halo.run/themes.html">https://halo.run/themes.html</a></li>
+<li>开源地址：<a href="https://github.com/halo-dev/halo">https://github.com/halo-dev/halo</a></li>
+</ul>
+<p>在使用过程中，有任何问题都可以通过以上链接找寻答案，或者联系我们。</p>
+<blockquote>
+<p>这是一篇自动生成的文章，请删除这篇文章之后开始你的创作吧！</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2021/08/22/spring%20%E9%9D%A2%E8%AF%95%E9%9B%B6%E6%95%A3%E9%97%AE%E9%A2%98-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/08/22/spring%20%E9%9D%A2%E8%AF%95%E9%9B%B6%E6%95%A3%E9%97%AE%E9%A2%98-1/" class="post-title-link" itemprop="url">spring 面试零散问题</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2021-08-22 16:39:01 / Modified: 21:03:27" itemprop="dateCreated datePublished" datetime="2021-08-22T16:39:01+00:00">2021-08-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/" itemprop="url" rel="index"><span itemprop="name">未分类</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>258</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h4>1. spring IOC的优点</h4>
+<ol>
+<li>使用spring ioc可以使业务逻辑与组件解耦</li>
+</ol>
+<p>如果不使用IOC，那么在调用某个组件时需要手动new一个对象，如</p>
+<pre><code>XXXService xx = new XXXServiceImpl();</code></pre>
+<p>如果业务变动不在是有XXXServiceImpl实现类，需要修改代码中所用创建对象的位置。如果使用spring可以通过修改配置文件来完成</p>
+<h4>2.spring aop的优点</h4>
+<ol>
+<li>抽离公共逻辑与业务逻辑解耦</li>
+</ol>
+<h4>3. IOC的实现原理</h4>
+<h4>4. AOP的实现原理</h4>
+<h4>5. spring事务的实现原理</h4>
+<h4>6. spring事务的传播性</h4>
+<h4>7. cglib与jdk动态代理的区别</h4>
+<p>jdk动态代理基于接口，实现了接口的类会优先使用jdk动态代理</p>
+<h4>8. spring bean是线程安全的吗</h4>
+<ol>
+<li>根据bean的作用域来区分
+a. 默认singleton，是线程不安全的
+b. prototype</li>
+</ol>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">骐骏</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="Word count total">111k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="Reading time total">6:45</span>
+  </span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a>
   </div>
 
-  
-
-
-  
-
-
-
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-
+    </div>
+  </footer>
 
   
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
 
-
-  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=0.5.0"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=0.5.0"></script>
-
-
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
-
-
-
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"full-stacker"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
-
-
-
-
-
-  
-  
-  
-
-  
-
-  
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
 </body>
 </html>
