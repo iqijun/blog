@@ -35,11 +35,11 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          external_repository: iqijun/iqijun.github.io
+          publish_branch: master
           publish_dir: ./public
           force_orphan: true
-          keep_files: true
+          keep_files: false
           user_name: 'GitHub Actions'
           user_email: 'actions@github.com'
           deploy_key: ${{ secrets.DEPLOY_KEY }}
-          ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
