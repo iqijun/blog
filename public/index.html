@@ -172,7 +172,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">122</span>
+          <span class="site-state-item-count">123</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -183,7 +183,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">92</span>
+        <span class="site-state-item-count">95</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -200,6 +200,173 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2026/04/04/OpenClaw-ACP-%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98%E4%B8%8E%E5%AE%9E%E7%8E%B0%E6%9C%BA%E5%88%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="骐骏">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 骐骏的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/04/04/OpenClaw-ACP-%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98%E4%B8%8E%E5%AE%9E%E7%8E%B0%E6%9C%BA%E5%88%B6/" class="post-title-link" itemprop="url">OpenClaw ACP 的核心问题与实现机制</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2026-04-04 15:05:00 / Modified: 15:10:34" itemprop="dateCreated datePublished" datetime="2026-04-04T15:05:00+00:00">2026-04-04</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>455</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="核心问题"><a href="#核心问题" class="headerlink" title="核心问题"></a>核心问题</h2><ol>
+<li><p><strong>工具碎片化与集成成本高昂</strong>  </p>
+<ul>
+<li>每个代码编辑器或 IDE 需要为不同 AI 代理编写定制集成代码  </li>
+<li>导致高集成成本、有限兼容性和厂商锁定</li>
+</ul>
+</li>
+<li><p><strong>上下文缺失与工作流中断</strong>  </p>
+<ul>
+<li>AI 编程助手在会话间无法维持上下文  </li>
+<li>开发者需要重复提供背景信息</li>
+</ul>
+</li>
+<li><p><strong>平台能力受限</strong>  </p>
+<ul>
+<li>OpenClaw 原生子代理受沙盒安全和工具集限制  </li>
+<li>专业编码工具（如 Claude Code）孤立运行</li>
+</ul>
+</li>
+<li><p><strong>专业 AI 代理难以协作</strong>  </p>
+<ul>
+<li>难以集成到团队协作平台（如 Slack&#x2F;Discord）  </li>
+<li>无法利用 OpenClaw 的路由和记忆管理能力</li>
+</ul>
+</li>
+<li><p><strong>通用协议对 AI 支持不足</strong>  </p>
+<ul>
+<li>REST&#x2F;gRPC 难以支持服务端主动推送、流式输出  </li>
+<li>缺乏内置幂等性和会话上下文支持</li>
+</ul>
+</li>
+<li><p><strong>多代理调试困难</strong>  </p>
+<ul>
+<li>复杂工作流中难以追踪问题根源</li>
+</ul>
+</li>
+</ol>
+<h2 id="核心机制"><a href="#核心机制" class="headerlink" title="核心机制"></a>核心机制</h2><ol>
+<li><p><strong>标准化通信协议</strong>  </p>
+<ul>
+<li>基于 JSON-RPC 2.0 的双向事件协议</li>
+</ul>
+</li>
+<li><p><strong>桥接架构</strong>  </p>
+<ul>
+<li><code>openclaw acp</code> 命令行工具作为 IDE 与 Gateway 的桥梁</li>
+</ul>
+</li>
+<li><p><strong>会话管理</strong>  </p>
+<ul>
+<li>映射 ACP 会话到 Gateway 会话键  </li>
+<li>支持会话标签和隔离机制</li>
+</ul>
+</li>
+<li><p><strong>服务端事件推送</strong>  </p>
+<ul>
+<li>主动推送 <code>assistant.text.delta</code> 等事件</li>
+</ul>
+</li>
+<li><p><strong>多渠道一致性</strong>  </p>
+<ul>
+<li>标准化消息格式保证 Web&#x2F;WhatsApp&#x2F;CLI 体验一致</li>
+</ul>
+</li>
+<li><p><strong>外部代理集成</strong>  </p>
+<ul>
+<li>通过 <code>acpx</code> 运行外部编码工具（如 Claude Code）</li>
+</ul>
+</li>
+<li><p><strong>溯源跟踪 ID</strong>  </p>
+<ul>
+<li>元数据跟踪命令来源和路径</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="实现机制"><a href="#实现机制" class="headerlink" title="实现机制"></a>实现机制</h2><ul>
+<li><strong>命令行工具</strong>：<code>openclaw acp</code> 通过 stdio 与 IDE 通信</li>
+<li><strong>WebSocket 通信</strong>：转发提示到 Gateway</li>
+<li><strong>会话存储</strong>：管理创建&#x2F;加载&#x2F;淘汰机制</li>
+<li><strong>策略守卫</strong>：<code>policy.ts</code> 控制功能启用和访问权限</li>
+<li><strong>SDK 集成</strong>：使用官方 <code>@agentclientprotocol/sdk</code></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -2497,121 +2664,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blog.full-stacker.com/2021/08/22/spring%20%E9%9D%A2%E8%AF%95%E9%9B%B6%E6%95%A3%E9%97%AE%E9%A2%98-1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="骐骏">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="骐骏的博客">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | 骐骏的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/08/22/spring%20%E9%9D%A2%E8%AF%95%E9%9B%B6%E6%95%A3%E9%97%AE%E9%A2%98-1/" class="post-title-link" itemprop="url">spring 面试零散问题</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2021-08-22 16:39:01 / Modified: 21:03:27" itemprop="dateCreated datePublished" datetime="2021-08-22T16:39:01+00:00">2021-08-22</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/" itemprop="url" rel="index"><span itemprop="name">未分类</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Word count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Word count in article: </span>
-      <span>258</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h4>1. spring IOC的优点</h4>
-<ol>
-<li>使用spring ioc可以使业务逻辑与组件解耦</li>
-</ol>
-<p>如果不使用IOC，那么在调用某个组件时需要手动new一个对象，如</p>
-<pre><code>XXXService xx = new XXXServiceImpl();</code></pre>
-<p>如果业务变动不在是有XXXServiceImpl实现类，需要修改代码中所用创建对象的位置。如果使用spring可以通过修改配置文件来完成</p>
-<h4>2.spring aop的优点</h4>
-<ol>
-<li>抽离公共逻辑与业务逻辑解耦</li>
-</ol>
-<h4>3. IOC的实现原理</h4>
-<h4>4. AOP的实现原理</h4>
-<h4>5. spring事务的实现原理</h4>
-<h4>6. spring事务的传播性</h4>
-<h4>7. cglib与jdk动态代理的区别</h4>
-<p>jdk动态代理基于接口，实现了接口的类会优先使用jdk动态代理</p>
-<h4>8. spring bean是线程安全的吗</h4>
-<ol>
-<li>根据bean的作用域来区分
-a. 默认singleton，是线程不安全的
-b. prototype</li>
-</ol>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
@@ -2635,13 +2687,13 @@ b. prototype</li>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">111k</span>
+    <span title="Word count total">112k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">6:45</span>
+    <span title="Reading time total">6:47</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a>
