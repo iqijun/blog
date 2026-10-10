@@ -5,6 +5,7 @@ updated: 2017-12-24 20:15:30.0
 url: /archives/421
 categories: 
 tags: 
+description: "在Dockerfile中构建容器时，若apt-get安装软件受网络影响，可在安装命令前将系统源备份并替换为国内镜像，如163源，随后执行apt-get update与install，从而提升下载速度并保证依赖安装顺利。"
 ---
 
 <blockquote>

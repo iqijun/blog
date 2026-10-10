@@ -4,7 +4,11 @@ date: 2016-05-18 11:40:41.0
 updated: 2017-10-03 14:05:53.0
 url: /archives/51
 categories: 
-tags: 基础 | python | 廖雪峰
+tags:
+  - "基础"
+  - "python"
+  - "廖雪峰"
+description: "这是一篇Python基础语法笔记，涵盖动态类型与变量、整数除法、str与bytes编码转换，以及列表、元组、字典、集合、条件循环、函数参数、分片迭代、列表生成式与生成器、map/reduce等常用知识点。"
 ---
 
 <ol>

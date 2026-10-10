@@ -4,7 +4,12 @@ date: 2016-10-02 17:30:35.0
 updated: 2016-10-02 19:01:23.0
 url: /archives/67
 categories: 
-tags: docker安装 | docker卸载 | docker | 常用命令
+tags:
+  - "docker安装"
+  - "docker卸载"
+  - "docker"
+  - "常用命令"
+description: "围绕Docker基础操作，说明Ubuntu安装、服务起停、容器运行与进程查看、镜像导入、Dockerfile构建、删除镜像容器、远程连接、存储和配置方法，并整理容器间通信、网络隔离及外部访问要点。"
 ---
 
 docker安装：

@@ -4,7 +4,12 @@ date: 2016-02-12 22:48:47.0
 updated: 2016-02-22 23:24:17.0
 url: /archives/20
 categories: 
-tags: github | 笔记 | oschina git | git
+tags:
+  - "github"
+  - "笔记"
+  - "oschina git"
+  - "git"
+description: "博客梳理版本控制基础，涵盖安装配置、仓库创建、暂存提交、日志查看、版本回退、撤销修改、远程仓库、克隆、分支合并、现场存储、标签和本地设置，便于快速掌握Git常用命令。"
 ---
 
 <div>1.安装客户端 （略）</div>

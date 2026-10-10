@@ -4,7 +4,11 @@ date: 2018-07-30 22:58:11.0
 updated: 2018-07-30 22:58:11.0
 url: /archives/452
 categories: 
-tags: mongo | 红丸 | mongo管理与开发精要
+tags:
+  - "mongo"
+  - "红丸"
+  - "mongo管理与开发精要"
+description: "笔记围绕MongoDB管理与开发，总结存储结构、日志机制、高级查询、游标存储过程、更新操作符及Capped Collection等特性，形成快速掌握核心要点的读书笔记。"
 ---
 
 作者红丸

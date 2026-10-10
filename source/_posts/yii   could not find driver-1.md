@@ -4,7 +4,12 @@ date: 2017-01-21 22:21:32.0
 updated: 2017-01-21 22:21:32.0
 url: /archives/184
 categories: 
-tags: yii | could not find driver | php | yii2
+tags:
+  - "yii"
+  - "could not find driver"
+  - "php"
+  - "yii2"
+description: "作为Java开发者，初次使用PHP和Yii连接MySQL时遇到could not find driver报错。经排查发现，问题并不在模型或控制器代码，而是PHP缺少PDO MySQL数据库扩展。最终修改php.ini，开启相关扩展后恢复正常连接。"
 ---
 
 <blockquote>哪些开起来挺简单的东西，真正做起来就未必是看起来的样子了。比如作为一个javaer的我，开始写php代码的时候就掉到了这么一个小坑了，与大家共享</blockquote>

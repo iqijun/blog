@@ -5,6 +5,7 @@ updated: 2021-08-22 21:03:27.0
 url: /archives/666
 categories: 未分类
 tags: 
+description: "汇总Spring面试常见零散问题，重点说明IOC通过依赖注入实现组件解耦，AOP抽取公共逻辑，事务原理与传播性，CGLIB与JDK动态代理差异，以及Bean作用域决定线程安全。"
 ---
 
 <h4>1. spring IOC的优点</h4>

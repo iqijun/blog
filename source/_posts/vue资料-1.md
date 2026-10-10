@@ -4,7 +4,11 @@ date: 2017-02-21 18:28:58.0
 updated: 2017-02-21 18:28:58.0
 url: /archives/227
 categories: 
-tags: github | vue | 资料
+tags:
+  - "github"
+  - "vue"
+  - "资料"
+description: "汇总Vue学习资源，涵盖官方文档、入门教程、API、组件、示例、开发工具、源码解析等，并建议先查文档、搜索思考后再提问，帮助开发者高效获取资料并规范交流方式。"
 ---
 
 一篇不错的文章来自segmentfault

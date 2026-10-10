@@ -4,7 +4,11 @@ date: 2017-07-15 15:06:00.0
 updated: 2017-07-15 15:06:00.0
 url: /archives/324
 categories: 理财小知识
-tags: 套利 | ETF | LOF
+tags:
+  - "套利"
+  - "ETF"
+  - "LOF"
+description: "介绍ETF基金在场外申赎与二级市场买卖的规则及资金效率高、门槛低、费率低、无印花税等优势，涵盖集合竞价、ETF联接基金、LOF基金、代码识别及两者套利差异。"
 ---
 
 <ol>

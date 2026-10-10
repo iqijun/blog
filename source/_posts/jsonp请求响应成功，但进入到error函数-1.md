@@ -4,7 +4,12 @@ date: 2016-11-02 11:14:46.0
 updated: 2016-11-12 22:39:13.0
 url: /archives/94
 categories: 
-tags: jsonp | 200 | error | success
+tags:
+  - "jsonp"
+  - "200"
+  - "error"
+  - "success"
+description: "JSONP请求返回200却进入error，服务端用map拼接响应导致不是合法JSON，jQuery解析失败；改用JSONObject输出正确格式后即可进入success。"
 ---
 
 发送jsop请求，请求发送成功，http状态码为200，但依然进入error函数，纠结万分。

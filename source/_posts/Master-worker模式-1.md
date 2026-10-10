@@ -4,7 +4,11 @@ date: 2017-04-19 22:41:57.0
 updated: 2017-06-03 23:51:08.0
 url: /archives/274
 categories: 
-tags: 设计模式 | master-worker模式 | master，worker
+tags:
+  - "设计模式"
+  - "master-worker模式"
+  - "master，worker"
+description: "Master-worker模式把并行任务拆为Master与Worker角色，Master负责接收、分配和汇总结果，Worker负责处理子任务并返回结果。文中以项目经理与开发人员类比，给出基于并发队列和线程的Java实现，并通过计算学生总成绩示例说明使用流程。"
 ---
 
 master-worker模式是常用的并行模式。就像软件公司的工作模式一样，客户将需求提给项目经理，项目经理将需求分解，然后分配给各个开发人员，开发人员开发完成后将结果反馈给项目经理，由项目经理向客户交付。在这种工作模式之中，项目经理扮演的角色就是Master，开发人员的角色就是worker。master-worker模式的核心思想是，系统有两个进程协作工作：Master进程，负责接收和分配任务；Worker进程，负责处理子任务。当Worker进程将子任务处理完成后，结果返回给Master进程，由Master进程做归纳汇总，最后得到最终的结果。

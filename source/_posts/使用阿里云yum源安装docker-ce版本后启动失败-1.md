@@ -4,7 +4,12 @@ date: 2020-01-01 12:10:30.0
 updated: 2020-01-01 12:10:30.0
 url: /archives/590
 categories: 
-tags: docker | 阿里云 | daemo.json | servcie docker start
+tags:
+  - "docker"
+  - "阿里云"
+  - "daemo.json"
+  - "servcie docker start"
+description: "使用阿里云yum源安装docker-ce后启动失败，查看journalctl日志发现daemon.json配置格式错误，registry-mirrors前缺少双引号，修正JSON后服务启动成功。该问题提醒配置镜像加速时需严格检查文件格式。"
 ---
 
 利用阿里云yum的docker仓库安装docker-ce版本后启东docker失败：

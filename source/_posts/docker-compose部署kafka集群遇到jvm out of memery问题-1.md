@@ -4,7 +4,12 @@ date: 2018-11-07 10:16:41.0
 updated: 2018-11-07 10:57:34.0
 url: /archives/497
 categories: 
-tags: docker | kafka | 内存溢出 | jvm
+tags:
+  - "docker"
+  - "kafka"
+  - "内存溢出"
+  - "jvm"
+description: "低配主机部署kafka集群时，默认1G JVM堆易触发OOM与mmap失败。通过docker-compose设置KAFKA_JVM_PERFORMANCE_OPTS，调小-Xmx和-Xms可解决。"
 ---
 
 利用docker-compose部署kafka集群遇到内存不足问题，报错信息中有如下信息：

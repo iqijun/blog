@@ -4,7 +4,10 @@ date: 2017-11-05 12:40:22.0
 updated: 2017-11-05 13:09:30.0
 url: /archives/401
 categories: 
-tags: python | pip镜像
+tags:
+  - "python"
+  - "pip镜像"
+description: "直接命令指定阿里云镜像安装pip包易报HTML识别错误，应改用Windows全局pip.ini配置，写入索引地址和可信主机，再在虚拟环境安装依赖。"
 ---
 
 <ol>

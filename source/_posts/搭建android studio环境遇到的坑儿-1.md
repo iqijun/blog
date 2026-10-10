@@ -4,7 +4,10 @@ date: 2016-02-06 00:29:39.0
 updated: 2016-02-13 15:29:01.0
 url: /archives/12
 categories: 
-tags: android studio | android
+tags:
+  - "android studio"
+  - "android"
+description: "搭建AS环境常遇SDK连接失败、HAXM需开启BIOS虚拟化、ADB端口被助手占用、Git因SSL证书报错等问题，可通过替代SDK、开启虚拟化、卸载助手或关闭SSL校验解决。"
 ---
 
 AS简介

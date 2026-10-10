@@ -4,7 +4,14 @@ date: 2017-01-08 14:49:56.0
 updated: 2017-01-08 14:49:56.0
 url: /archives/176
 categories: 未分类
-tags: error | npm | update | npm源 | npm ERR! | registry error parsing json
+tags:
+  - "error"
+  - "npm"
+  - "update"
+  - "npm源"
+  - "npm ERR!"
+  - "registry error parsing json"
+description: "在执行 npm update 时出现 npm ERR! registry error parsing json 报错，表示 npm 源返回了无法正常解析的 JSON 数据，可通过 npm config set registry 切换至 cnpmjs 等可用源解决。"
 ---
 
 在执行npm update时报错npm ERR! registry error parsing json

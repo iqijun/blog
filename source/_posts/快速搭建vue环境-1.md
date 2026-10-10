@@ -4,7 +4,12 @@ date: 2017-01-06 22:54:20.0
 updated: 2017-01-06 23:39:54.0
 url: /archives/172
 categories: 
-tags: vue | webpack | 环境搭建 | babel
+tags:
+  - "vue"
+  - "webpack"
+  - "环境搭建"
+  - "babel"
+description: "记录快速搭建Vue开发环境的流程，涵盖安装Node、Vue、Webpack、webpack-dev-server、HTML插件与Babel等依赖，并提供webpack.config.js、babel配置及package.json脚本示例，帮助初学者解决独立搭建Vue环境时遇到的常见问题。"
 ---
 
 <blockquote>

@@ -4,7 +4,13 @@ date: 2017-03-24 14:35:46.0
 updated: 2017-03-24 14:35:46.0
 url: /archives/254
 categories: 
-tags: java | 线程通讯 | join | wait | notify
+tags:
+  - "java"
+  - "线程通讯"
+  - "join"
+  - "wait"
+  - "notify"
+description: "Java线程间通信通过wait、notify实现线程协作：调用wait释放锁并等待，notify唤醒等待线程。join方法可使一个线程等待另一线程执行完毕后再继续，从而将交叉执行转换为线性顺序执行。"
 ---
 
 一、 wait,notify方法使用示例：

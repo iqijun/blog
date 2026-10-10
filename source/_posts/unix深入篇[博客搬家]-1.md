@@ -5,6 +5,7 @@ updated: 2016-03-02 12:36:52.0
 url: /archives/27
 categories: 
 tags: uninx常用命令
+description: "Unix管理基础涵盖定时器、用户与组和硬盘维护。cron定时任务可用crontab查看、编辑和加载；用户管理包括增删改用户、口令设置及配置文件维护；硬盘维护涉及空间查看、挂载卸载与格式化等操作。"
 ---
 
 <pre>本文首发在csdn博客现转移到此处 原文地址：http://blog.csdn.net/iqijun/article/details/14449987</pre>

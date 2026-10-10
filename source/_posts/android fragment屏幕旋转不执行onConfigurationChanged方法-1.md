@@ -4,7 +4,13 @@ date: 2016-02-22 23:20:21.0
 updated: 2016-02-23 23:06:18.0
 url: /archives/23
 categories: 
-tags: Configuration | 屏幕旋转 | acitivity | fragment | android
+tags:
+  - "Configuration"
+  - "屏幕旋转"
+  - "acitivity"
+  - "fragment"
+  - "android"
+description: "安卓开发中，片段旋转屏幕时配置改变回调可能不执行，原因是十三级及以上接口旋转还会改变屏幕尺寸，导致配置变化。需在清单文件里同时声明方向与屏幕尺寸两个属性，而不是仅设置方向，无需额外权限。"
 ---
 
 自学是一段痛苦的路程。。。。  但我们在痛苦中进步

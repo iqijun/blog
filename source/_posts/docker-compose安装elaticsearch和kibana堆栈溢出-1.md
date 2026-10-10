@@ -4,7 +4,11 @@ date: 2019-01-05 17:50:17.0
 updated: 2019-01-29 18:02:40.0
 url: /archives/516
 categories: 
-tags: docker | compose | elastice
+tags:
+  - "docker"
+  - "compose"
+  - "elastice"
+description: "在Docker Compose部署ES和Kibana时，ES默认JVM堆内存2G，1G内存虚拟机常启动失败。可在compose文件环境变量中设Xms和Xmx为512m，降低堆内存解决。"
 ---
 
 由于elasticsearch默认的jvm参数默认为2G，在虚拟机内存为1G所以启动时直接报内存不足错误

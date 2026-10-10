@@ -4,7 +4,10 @@ date: 2018-01-06 21:14:54.0
 updated: 2018-01-06 21:14:54.0
 url: /archives/436
 categories: 
-tags: IDEA | idea常用快捷键
+tags:
+  - "IDEA"
+  - "idea常用快捷键"
+description: "整理了IntelliJ IDEA开发中常用的快捷键，覆盖全局搜索替换、生成代码、复制与删除行、打开任意文件、调试和热部署、格式化代码、查看接口实现及列式编辑，有助于减少鼠标操作并提升开发效率。"
 ---
 
 ctrl+shift+F/R全局搜索替换

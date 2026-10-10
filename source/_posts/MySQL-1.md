@@ -5,6 +5,7 @@ updated: 2022-02-08 16:15:50.479
 url: /archives/4
 categories: 
 tags: 
+description: "围绕MySQL核心知识，梳理索引、优化、存储引擎、事务与MVCC、主从复制、读写分离、分库分表、数据迁移扩容及分布式ID，重点解析B+树、锁与隔离级别等原理与实践。"
 ---
 
 1. 索引的实现形式

@@ -4,7 +4,12 @@ date: 2019-05-20 23:53:51.0
 updated: 2021-09-27 09:27:46.0
 url: /archives/564
 categories: 
-tags: java | 面试 | CAS | ABA
+tags:
+  - "java"
+  - "面试"
+  - "CAS"
+  - "ABA"
+description: "CAS是CPU原语实现的原子比较并交换，Atomic类借此以无锁方式提升并发，但存在循环空耗CPU与ABA问题。解决ABA可引入版本号或时间戳，如AtomicStampedReference；自定义对象可用AtomicReference。"
 ---
 
 <h3>1. 什么是CAS</h3>

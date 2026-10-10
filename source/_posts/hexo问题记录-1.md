@@ -5,6 +5,7 @@ updated: 2016-07-10 15:57:16.0
 url: /archives/49
 categories: 未分类
 tags: 
+description: "记录Hexo添加feed插件后的渲染报错与server无法启动，原因是站点配置文件误加插件声明，应通过package.json安装依赖；另说明Win10升级部署失败需修复SSH密钥目录权限。"
 ---
 
 &lt;ol&gt;

@@ -4,7 +4,12 @@ date: 2016-10-16 23:57:01.0
 updated: 2016-10-27 00:02:58.0
 url: /archives/78
 categories: 
-tags: vue | 教程 | 组件 | webpack
+tags:
+  - "vue"
+  - "教程"
+  - "组件"
+  - "webpack"
+description: "面向Vue前端工程，介绍vue-loader与webpack-dev-server的安装配置，说明入口、输出和插件设置，实现热更新、组件解析与页面访问，演示myage等单文件组件、props父子传参和file-loader处理字体资源，帮助快速搭建Vue2开发环境。"
 ---
 
 <ol>

@@ -5,6 +5,7 @@ updated: 2022-01-28 15:45:26.541
 url: /archives/1
 categories: 未分类
 tags: 
+description: "Halo 默认欢迎文章提示用户安装成功，感谢使用 Halo 创作，并汇总官网、文档、社区、主题仓库与开源地址等链接，方便查询问题和获取资源，同时提醒删除该自动生成文章后即可开始自己的创作。"
 ---
 
 ## Hello Halo

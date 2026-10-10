@@ -5,6 +5,7 @@ updated: 2018-08-11 16:34:47.0
 url: /archives/391
 categories: 杂谈
 tags: 
+description: "直接指定阿里云镜像安装包时，pip会误抓HTML索引页并报无法识别归档格式。可修改pip全局配置，在Windows用户目录添加pip.ini，设置镜像地址与受信任主机，再于虚拟环境安装。"
 ---
 
 可以直接在执行命令时，指定镜像

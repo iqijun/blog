@@ -5,6 +5,7 @@ updated: 2016-03-01 19:13:07.0
 url: /archives/26
 categories: 
 tags: 
+description: "介绍Unix命令基本规则与常用命令，包括文件系统的权限修改、属主与用户组、重定向和管道；讲解vi、find、grep、压缩备份等实用工具，并简述进程、关机、磁盘维护及网络用户查询等基础内容。"
 ---
 
 本文首发在csdn博客先转移到此处  原文地址：http://blog.csdn.net/iqijun/article/details/14231197

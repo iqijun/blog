@@ -5,6 +5,7 @@ updated: 2019-02-20 17:10:17.0
 url: /archives/534
 categories: 
 tags: 面试
+description: "关于MQ相关知识的资料以Flash和FreeMind脑图形式呈现，阅读依赖浏览器Flash支持；若无法播放，可打开MQ.mm文件，在百度脑图中查看，适合梳理消息队列概念与要点。"
 ---
 
 查询本文需要浏览器支持flash功能，如flash无法播放可在<a href="http://naotu.baidu.com/file/204d9053d09f4e00b0e30f9b32b9334d?token=22bbd407b6ea6b97">百度脑图</a>中查看

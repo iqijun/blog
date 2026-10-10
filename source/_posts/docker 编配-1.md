@@ -4,7 +4,10 @@ date: 2017-12-24 20:18:42.0
 updated: 2017-12-24 20:18:42.0
 url: /archives/425
 categories: 
-tags: docker | 编配，docker-compose
+tags:
+  - "docker"
+  - "编配，docker-compose"
+description: "Docker编配是容器自动配置、协作和管理的过程，可用Swarm、Kubernetes、Mesos等工具。Compose通过YAML定义web和redis的镜像、端口、卷、链接，使用up命令启动。"
 ---
 
 <ol>

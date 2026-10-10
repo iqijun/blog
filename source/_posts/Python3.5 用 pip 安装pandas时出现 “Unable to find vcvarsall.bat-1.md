@@ -5,6 +5,7 @@ updated: 2017-11-25 23:01:08.0
 url: /archives/408
 categories: 
 tags: 
+description: "在Python3.5中用pip安装pandas时出现vcvarsall.bat缺失错误，直接安装cp35m格式wheel包失败，把文件名中的cp35m改成none后重新安装即可解决。"
 ---
 
 pip安装pandas的时候出现了这个问题，于是下载了pandas-0.21.0-cp35-cp35m-win_amd64.whl文件，执行pip install pandas-0.21.0-cp35-cp35m-win_amd64.whl

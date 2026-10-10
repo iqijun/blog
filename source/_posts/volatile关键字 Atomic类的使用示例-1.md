@@ -4,7 +4,12 @@ date: 2017-03-16 18:37:06.0
 updated: 2017-03-16 21:38:44.0
 url: /archives/249
 categories: 
-tags: volatile | Atomic | 并发编程 | 并发
+tags:
+  - "volatile"
+  - "Atomic"
+  - "并发编程"
+  - "并发"
+description: "易变关键字适合单写多读场景，能避免同步锁提升性能；多线程并发写需使用原子类保证操作原子性，博客通过计数变量和原子整数示例说明两者作用与区别。"
 ---
 
 <ol>

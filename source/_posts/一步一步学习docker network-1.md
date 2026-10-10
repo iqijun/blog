@@ -4,7 +4,12 @@ date: 2017-12-10 17:26:30.0
 updated: 2017-12-10 17:28:18.0
 url: /archives/419
 categories: 
-tags: docker | network | connect | link
+tags:
+  - "docker"
+  - "network"
+  - "connect"
+  - "link"
+description: "讲解Docker网络基础操作，包括查看、创建和检查网络，容器指定网络、连接与断开，验证连通性，并说明共享命名空间或host限制以及link仅限同宿主机，多主机可用网络或Swarm。"
 ---
 
 <ol>

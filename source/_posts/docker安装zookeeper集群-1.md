@@ -4,7 +4,12 @@ date: 2017-09-20 14:17:19.0
 updated: 2021-09-04 10:56:42.0
 url: /archives/371
 categories: 
-tags: docker | 常用命令 | zookeeper | 集群
+tags:
+  - "docker"
+  - "常用命令"
+  - "zookeeper"
+  - "集群"
+description: "使用Docker部署三节点Zookeeper集群，优先拉取garland镜像，通过宿主网络、服务编号和额外配置参数启动三个实例，再用客户端连接宿主机端口验证，并附容器管理命令。"
 ---
 
 <ol>

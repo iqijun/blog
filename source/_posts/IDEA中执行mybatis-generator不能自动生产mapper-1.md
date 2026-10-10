@@ -4,7 +4,13 @@ date: 2017-05-22 16:01:51.0
 updated: 2019-03-05 14:34:38.0
 url: /archives/286
 categories: 杂谈
-tags: IDEA | mybatis | generator.maven | 依赖范围 | provided
+tags:
+  - "IDEA"
+  - "mybatis"
+  - "generator.maven"
+  - "依赖范围"
+  - "provided"
+description: "从MyEclipse转向IDEA后，使用MyBatis生成器创建mapper时频繁报错。通过修改运行配置工作目录、调整依赖顺序，并取消provided作用域改用默认compile即可解决，同时回顾了Maven依赖范围。"
 ---
 
 <blockquote>

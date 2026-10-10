@@ -4,7 +4,9 @@ date: 2017-04-11 15:39:13.0
 updated: 2017-04-27 17:54:24.0
 url: /archives/271
 categories: 
-tags: 设计模式 | future
+tags:
+  - "设计模式"
+  - "future"
 ---
 
 <blockquote>

@@ -5,6 +5,7 @@ updated: 2017-12-24 20:17:02.0
 url: /archives/423
 categories: 
 tags: docker，服务
+description: "Docker构建服务主要利用卷实现多容器文件系统共享，可通过镜像或运行命令指定卷，卷数据不随容器停止消失，并可用卷共享参数把指定容器的所有卷加入新容器，实现数据复用。"
 ---
 
 <ol>

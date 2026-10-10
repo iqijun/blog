@@ -5,6 +5,7 @@ updated: 2016-07-11 22:17:35.0
 url: /archives/48
 categories: 未分类
 tags: 
+description: "博客记录使用 Hexo 生成 Atom 源并搭配 IFTTT 同步微博时触发器未执行的问题，排查后发现文件确有更新，故障可能源于添加 IFTTT 配方前已部署站点，导致新文章未被及时识别为动态。"
 ---
 
 &lt;ol&gt;

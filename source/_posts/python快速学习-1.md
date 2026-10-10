@@ -5,6 +5,7 @@ updated: 2017-10-26 22:39:06.0
 url: /archives/394
 categories: 
 tags: python
+description: "内容梳理Python基础语法、私有变量与方法访问、模块导入和包结构，并介绍虚拟环境、异常处理、with上下文管理、数据库连接与ORM框架，以及相关第三方库用法，适合快速回顾常见开发知识点。"
 ---
 
 <ol>
