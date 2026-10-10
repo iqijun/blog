@@ -1,0 +1,5 @@
+{% if page.layout == 'post' %}
+<div class="post-md-download" style="margin-top:2em;font-size:.9em;">
+  <a href="{{ url_for(page.path) }}index.md" download="{{ page.title }}.md"><i class="fa fa-download"></i> 下载 Markdown</a>
+</div>
+{% endif %}

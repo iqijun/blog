@@ -7,7 +7,7 @@ title: 骐骏的博客
 subtitle: 学习 记录 分享
 description: 
 author: 骐骏
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -101,6 +101,20 @@ word_counter:
   post_wordcount: true
   min2read: true
   total_wordcount: true
+
+# RSS 订阅: /atom.xml
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
+  content_limit: 140
+  order_by: -date
+
+# 站点地图: /sitemap.xml
+sitemap:
+  path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
